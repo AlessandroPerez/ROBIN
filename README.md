@@ -21,6 +21,11 @@ Note: higher diffusers version may not be compatible with the DDIM inversion cod
 
 ## Usage
 
+### Generate clean images for watermark optimization
+```
+python gen_clean_image.py --start 0 --end 200 --model_id $path_to_diffusion_model --save_path $path_to_save_generated_imgs
+```
+
 ### Perform adversarial optimization
 ```
 python gen_watermark.py --run_name no_attack --w_channel 3 --w_pattern ring --model_id $path_to_diffusion_model
