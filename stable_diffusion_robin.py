@@ -387,15 +387,6 @@ class ROBINStableDiffusionPipeline(StableDiffusionPipeline):
                         x0_latents = scheduler.convert_model_output(noise_pred,timesteps.item(),noisy_latents)  #predict x0 in one-step
                         x0_tensor = self.decode_latents_wgrad(x0_latents)
 
-                        
-                        # Get the target for loss depending on the prediction type
-                        if scheduler.config.prediction_type == "epsilon":
-                            target = noise
-                        elif scheduler.config.prediction_type == "v_prediction":
-                            target = scheduler.get_velocity(latents, noise, timesteps)
-                        else:
-                            raise ValueError(f"Unknown prediction type {scheduler.config.prediction_type}")
-
                         loss_noise = F.mse_loss(x0_tensor.float(), gt_tensor.float(), reduction="mean")  # pixel alignment
                         loss_wm = torch.mean(torch.abs(opt_wm[mask].real))
                         loss_constrain = F.mse_loss(noise_pred_wm.float(), noise_pred_null.float(), reduction="mean")  # prompt constraint
