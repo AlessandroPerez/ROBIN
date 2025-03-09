@@ -38,7 +38,7 @@ class OptimizedDataset(Dataset):
         self.center_crop = center_crop
 
         file_list = os.listdir(self.data_root)
-        file_list.sort(key=lambda x:int(x.split('-')[2]))
+        file_list.sort(key=lambda x: int(x.split('-')[-1].split('.')[0]))  # ori-lg7.5-xx.jpg
         self.image_paths = [os.path.join(self.data_root, file_path) for file_path in file_list]
         self.dataset, self.prompt_key = get_dataset(args)
         
@@ -120,7 +120,7 @@ def main(args):
     pipe = pipe.to(device)
 
     train_dataset = OptimizedDataset(
-      data_root='generated_imgs/clean',
+      data_root=args.data_root,
       repeats=10,
       center_crop=False,
       set="train",
@@ -159,6 +159,8 @@ if __name__ == '__main__':
     parser.add_argument('--w_measurement', default='l1_complex')
     parser.add_argument('--w_injection', default='complex')
     parser.add_argument('--w_pattern_const', default=0, type=float)
+
+    parser.add_argument('--data_root', required=True, help='Path to the clean dataset directory')
 
     args = parser.parse_args()
 
