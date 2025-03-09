@@ -28,7 +28,7 @@ python gen_clean_image.py --start 0 --end 200 --model_id $path_to_diffusion_mode
 
 ### Perform adversarial optimization
 ```
-python gen_watermark.py --run_name no_attack --w_channel 3 --w_pattern ring --model_id $path_to_diffusion_model
+python gen_watermark.py --run_name no_attack --w_channel 3 --w_pattern ring --model_id $path_to_diffusion_model --data_root $path_to_generated_clean_images
 ```
 
 ### Perform watermark embedding and evaluate robustness
