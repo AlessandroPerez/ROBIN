@@ -1,0 +1,61 @@
+{
+  "overall": {
+    "total_tests": 90,
+    "total_prompts": 5,
+    "total_attacks": 18,
+    "avg_detection_rate": 0.6508544444444445,
+    "avg_precision": 0.6159944444444445,
+    "avg_recall": 0.5846111111111112,
+    "avg_f1_score": 0.59958
+  },
+  "by_category": {
+    "blur": {
+      "count": 15,
+      "avg_detection_rate": 0.7526333333333334,
+      "avg_precision": 0.7130466666666667,
+      "avg_recall": 0.6767733333333332,
+      "avg_f1_score": 0.6943066666666666
+    },
+    "jpeg": {
+      "count": 15,
+      "avg_detection_rate": 0.7015600000000002,
+      "avg_precision": 0.6634133333333333,
+      "avg_recall": 0.6289599999999999,
+      "avg_f1_score": 0.64524
+    },
+    "noise": {
+      "count": 15,
+      "avg_detection_rate": 0.6763266666666667,
+      "avg_precision": 0.6423666666666666,
+      "avg_recall": 0.60402,
+      "avg_f1_score": 0.6223733333333333
+    },
+    "rotation": {
+      "count": 15,
+      "avg_detection_rate": 0.6022133333333333,
+      "avg_precision": 0.5646933333333333,
+      "avg_recall": 0.5412,
+      "avg_f1_score": 0.5523666666666667
+    },
+    "scaling": {
+      "count": 15,
+      "avg_detection_rate": 0.6454799999999999,
+      "avg_precision": 0.6100266666666666,
+      "avg_recall": 0.5810333333333334,
+      "avg_f1_score": 0.5947733333333333
+    },
+    "cropping": {
+      "count": 15,
+      "avg_detection_rate": 0.5269133333333333,
+      "avg_precision": 0.50242,
+      "avg_recall": 0.4756799999999999,
+      "avg_f1_score": 0.48841999999999997
+    }
+  },
+  "metadata": {
+    "framework": "Minimal ROBIN Testing",
+    "python_version": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+    "timestamp": 1755592131.292812,
+    "note": "Simulated results for framework demonstration"
+  }
+}

@@ -1,0 +1,73 @@
+2025-08-19 11:08:41,884 - INFO - Initialized Hybrid ROBIN Tester with 5 images
+2025-08-19 11:08:41,884 - INFO - Generated 5 watermark patterns
+2025-08-19 11:08:41,884 - INFO - Starting Hybrid ROBIN watermark testing
+2025-08-19 11:08:41,884 - INFO - Loaded 5 prompts for testing
+2025-08-19 11:08:41,884 - INFO - Running 150 tests (5 images × 15 attacks × 2 image types)
+2025-08-19 11:08:41,884 - INFO - Processing image 1/5: A serene mountain landscape at sunset...
+2025-08-19 11:08:43,372 - INFO - Progress: 20/150 (13.3%) - ETA: 9.7s
+2025-08-19 11:08:44,045 - INFO - Processing image 2/5: Autumn forest with golden leaves...
+2025-08-19 11:08:44,805 - INFO - Progress: 40/150 (26.7%) - ETA: 8.0s
+2025-08-19 11:08:46,083 - INFO - Progress: 60/150 (40.0%) - ETA: 6.3s
+2025-08-19 11:08:46,084 - INFO - Processing image 3/5: Ocean waves on a sandy beach...
+2025-08-19 11:08:47,510 - INFO - Progress: 80/150 (53.3%) - ETA: 4.9s
+2025-08-19 11:08:48,158 - INFO - Processing image 4/5: Field of sunflowers under blue sky...
+2025-08-19 11:08:48,885 - INFO - Progress: 100/150 (66.7%) - ETA: 3.5s
+2025-08-19 11:08:50,263 - INFO - Progress: 120/150 (80.0%) - ETA: 2.1s
+2025-08-19 11:08:50,264 - INFO - Processing image 5/5: Misty morning in a pine forest...
+2025-08-19 11:08:51,642 - INFO - Progress: 140/150 (93.3%) - ETA: 0.7s
+2025-08-19 11:08:52,284 - INFO - Completed all tests in 10.40 seconds
+2025-08-19 11:08:52,284 - INFO - Saving Hybrid ROBIN test results
+2025-08-19 11:08:52,289 - INFO - Results saved to hybrid_robin_results
+2025-08-19 11:09:48,234 - INFO - Initialized Hybrid ROBIN Tester with 5 images
+2025-08-19 11:09:48,234 - INFO - Generated 5 watermark patterns
+2025-08-19 11:09:48,234 - INFO - Starting Hybrid ROBIN watermark testing
+2025-08-19 11:09:48,234 - INFO - Loaded 5 prompts for testing
+2025-08-19 11:09:48,234 - INFO - Running 150 tests (5 images × 15 attacks × 2 image types)
+2025-08-19 11:09:48,234 - INFO - Processing image 1/5: A serene mountain landscape at sunset...
+2025-08-19 11:09:55,630 - INFO - Progress: 20/150 (13.3%) - ETA: 48.1s
+2025-08-19 11:10:00,008 - INFO - Processing image 2/5: Autumn forest with golden leaves...
+2025-08-19 11:10:03,662 - INFO - Progress: 40/150 (26.7%) - ETA: 42.4s
+2025-08-19 11:10:11,654 - INFO - Progress: 60/150 (40.0%) - ETA: 35.1s
+2025-08-19 11:10:11,654 - INFO - Processing image 3/5: Ocean waves on a sandy beach...
+2025-08-19 11:10:18,992 - INFO - Progress: 80/150 (53.3%) - ETA: 26.9s
+2025-08-19 11:10:23,365 - INFO - Processing image 4/5: Field of sunflowers under blue sky...
+2025-08-19 11:10:26,974 - INFO - Progress: 100/150 (66.7%) - ETA: 19.4s
+2025-08-19 11:10:35,069 - INFO - Progress: 120/150 (80.0%) - ETA: 11.7s
+2025-08-19 11:10:35,069 - INFO - Processing image 5/5: Misty morning in a pine forest...
+2025-08-19 11:10:42,396 - INFO - Progress: 140/150 (93.3%) - ETA: 3.9s
+2025-08-19 11:10:46,783 - INFO - Completed all tests in 58.55 seconds
+2025-08-19 11:10:46,784 - INFO - Saving Hybrid ROBIN test results
+2025-08-19 11:10:46,788 - INFO - Results saved to improved_robin_results
+2025-08-19 11:11:01,232 - INFO - Initialized Hybrid ROBIN Tester with 10 images
+2025-08-19 11:11:01,232 - INFO - Generated 5 watermark patterns
+2025-08-19 11:11:01,232 - INFO - Starting Hybrid ROBIN watermark testing
+2025-08-19 11:11:01,232 - INFO - Loaded 10 prompts for testing
+2025-08-19 11:11:01,233 - INFO - Running 300 tests (10 images × 15 attacks × 2 image types)
+2025-08-19 11:11:01,233 - INFO - Processing image 1/10: A serene mountain landscape at sunset...
+2025-08-19 11:11:08,619 - INFO - Progress: 20/300 (6.7%) - ETA: 103.4s
+2025-08-19 11:11:13,037 - INFO - Processing image 2/10: Autumn forest with golden leaves...
+2025-08-19 11:11:16,675 - INFO - Progress: 40/300 (13.3%) - ETA: 100.4s
+2025-08-19 11:11:24,655 - INFO - Progress: 60/300 (20.0%) - ETA: 93.7s
+2025-08-19 11:11:24,655 - INFO - Processing image 3/10: Ocean waves on a sandy beach...
+2025-08-19 11:11:31,989 - INFO - Progress: 80/300 (26.7%) - ETA: 84.6s
+2025-08-19 11:11:36,382 - INFO - Processing image 4/10: Field of sunflowers under blue sky...
+2025-08-19 11:11:40,352 - INFO - Progress: 100/300 (33.3%) - ETA: 78.2s
+2025-08-19 11:11:49,105 - INFO - Progress: 120/300 (40.0%) - ETA: 71.8s
+2025-08-19 11:11:49,105 - INFO - Processing image 5/10: Misty morning in a pine forest...
+2025-08-19 11:11:56,558 - INFO - Progress: 140/300 (46.7%) - ETA: 63.2s
+2025-08-19 11:12:00,907 - INFO - Processing image 6/10: Desert dunes under starry night sky...
+2025-08-19 11:12:04,567 - INFO - Progress: 160/300 (53.3%) - ETA: 55.4s
+2025-08-19 11:12:12,629 - INFO - Progress: 180/300 (60.0%) - ETA: 47.6s
+2025-08-19 11:12:12,629 - INFO - Processing image 7/10: Tropical waterfall in jungle setting...
+2025-08-19 11:12:19,958 - INFO - Progress: 200/300 (66.7%) - ETA: 39.4s
+2025-08-19 11:12:24,283 - INFO - Processing image 8/10: Snow-covered alpine peaks...
+2025-08-19 11:12:27,913 - INFO - Progress: 220/300 (73.3%) - ETA: 31.5s
+2025-08-19 11:12:35,900 - INFO - Progress: 240/300 (80.0%) - ETA: 23.7s
+2025-08-19 11:12:35,900 - INFO - Processing image 9/10: Cherry blossoms in spring garden...
+2025-08-19 11:12:43,292 - INFO - Progress: 260/300 (86.7%) - ETA: 15.7s
+2025-08-19 11:12:47,695 - INFO - Processing image 10/10: Rocky coastline with lighthouse...
+2025-08-19 11:12:51,334 - INFO - Progress: 280/300 (93.3%) - ETA: 7.9s
+2025-08-19 11:12:59,462 - INFO - Progress: 300/300 (100.0%) - ETA: 0.0s
+2025-08-19 11:12:59,462 - INFO - Completed all tests in 118.23 seconds
+2025-08-19 11:12:59,462 - INFO - Saving Hybrid ROBIN test results
+2025-08-19 11:12:59,472 - INFO - Results saved to final_robin_results

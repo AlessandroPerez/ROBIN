@@ -1,0 +1,4097 @@
+[
+  {
+    "test_id": 1,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "sigma": 1.0
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_blur_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.00747211318308941,
+      "attribution_correct": false,
+      "detection_rate": 0.0735,
+      "precision": 0.0666,
+      "recall": 0.0663,
+      "f1_score": 0.0664,
+      "attribution_accuracy": 0.462
+    },
+    "metrics": {
+      "detection_rate": 0.0735,
+      "precision": 0.0666,
+      "recall": 0.0663,
+      "f1_score": 0.0664,
+      "attribution_accuracy": 0.462
+    },
+    "timestamp": 1755593944.1701128
+  },
+  {
+    "test_id": 2,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "sigma": 2.5
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_blur_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002274876694943601,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0455,
+      "recall": 0.0449,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.5334
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0455,
+      "recall": 0.0449,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.5334
+    },
+    "timestamp": 1755593944.3020217
+  },
+  {
+    "test_id": 3,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "sigma": 4.0
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_blur_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002279618553597715,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0465,
+      "recall": 0.0439,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.6023
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0465,
+      "recall": 0.0439,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.6023
+    },
+    "timestamp": 1755593944.4127817
+  },
+  {
+    "test_id": 4,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "jpeg_80",
+    "attack_category": "jpeg",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "quality": 80
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_jpeg_80.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.036440535072588175,
+      "attribution_correct": false,
+      "detection_rate": 0.373,
+      "precision": 0.3376,
+      "recall": 0.351,
+      "f1_score": 0.3442,
+      "attribution_accuracy": 0.6931
+    },
+    "metrics": {
+      "detection_rate": 0.373,
+      "precision": 0.3376,
+      "recall": 0.351,
+      "f1_score": 0.3442,
+      "attribution_accuracy": 0.6931
+    },
+    "timestamp": 1755593944.5192277
+  },
+  {
+    "test_id": 5,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "jpeg_50",
+    "attack_category": "jpeg",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "quality": 50
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_jpeg_50.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.01955052980639244,
+      "attribution_correct": false,
+      "detection_rate": 0.2076,
+      "precision": 0.2015,
+      "recall": 0.1829,
+      "f1_score": 0.1917,
+      "attribution_accuracy": 0.5919
+    },
+    "metrics": {
+      "detection_rate": 0.2076,
+      "precision": 0.2015,
+      "recall": 0.1829,
+      "f1_score": 0.1917,
+      "attribution_accuracy": 0.5919
+    },
+    "timestamp": 1755593944.6331248
+  },
+  {
+    "test_id": 6,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "jpeg_20",
+    "attack_category": "jpeg",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "quality": 20
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_jpeg_20.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.00885428866433402,
+      "attribution_correct": false,
+      "detection_rate": 0.0956,
+      "precision": 0.0907,
+      "recall": 0.0858,
+      "f1_score": 0.0882,
+      "attribution_accuracy": 0.3403
+    },
+    "metrics": {
+      "detection_rate": 0.0956,
+      "precision": 0.0907,
+      "recall": 0.0858,
+      "f1_score": 0.0882,
+      "attribution_accuracy": 0.3403
+    },
+    "timestamp": 1755593944.7380755
+  },
+  {
+    "test_id": 7,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "noise_weak",
+    "attack_category": "noise",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.1
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_noise_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.027065041701251402,
+      "attribution_correct": false,
+      "detection_rate": 0.2671,
+      "precision": 0.2514,
+      "recall": 0.2514,
+      "f1_score": 0.2514,
+      "attribution_accuracy": 0.6866
+    },
+    "metrics": {
+      "detection_rate": 0.2671,
+      "precision": 0.2514,
+      "recall": 0.2514,
+      "f1_score": 0.2514,
+      "attribution_accuracy": 0.6866
+    },
+    "timestamp": 1755593944.8311622
+  },
+  {
+    "test_id": 8,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.25
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_noise_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.01581934682411232,
+      "attribution_correct": false,
+      "detection_rate": 0.1575,
+      "precision": 0.1522,
+      "recall": 0.1379,
+      "f1_score": 0.1447,
+      "attribution_accuracy": 0.622
+    },
+    "metrics": {
+      "detection_rate": 0.1575,
+      "precision": 0.1522,
+      "recall": 0.1379,
+      "f1_score": 0.1447,
+      "attribution_accuracy": 0.622
+    },
+    "timestamp": 1755593944.930308
+  },
+  {
+    "test_id": 9,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "noise_strong",
+    "attack_category": "noise",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.4
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_noise_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.011094616729237792,
+      "attribution_correct": false,
+      "detection_rate": 0.112,
+      "precision": 0.0987,
+      "recall": 0.1033,
+      "f1_score": 0.101,
+      "attribution_accuracy": 0.4595
+    },
+    "metrics": {
+      "detection_rate": 0.112,
+      "precision": 0.0987,
+      "recall": 0.1033,
+      "f1_score": 0.101,
+      "attribution_accuracy": 0.4595
+    },
+    "timestamp": 1755593945.0565789
+  },
+  {
+    "test_id": 10,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "rotation_5",
+    "attack_category": "rotation",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "angle": 5
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_rotation_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0035610436263819392,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0473,
+      "recall": 0.0425,
+      "f1_score": 0.0448,
+      "attribution_accuracy": 0.4974
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0473,
+      "recall": 0.0425,
+      "f1_score": 0.0448,
+      "attribution_accuracy": 0.4974
+    },
+    "timestamp": 1755593945.145388
+  },
+  {
+    "test_id": 11,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "rotation_15",
+    "attack_category": "rotation",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "angle": 15
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_rotation_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002941776811693823,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0452,
+      "recall": 0.0441,
+      "f1_score": 0.0447,
+      "attribution_accuracy": 0.6482
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0452,
+      "recall": 0.0441,
+      "f1_score": 0.0447,
+      "attribution_accuracy": 0.6482
+    },
+    "timestamp": 1755593945.2861087
+  },
+  {
+    "test_id": 12,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "rotation_30",
+    "attack_category": "rotation",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "angle": 30
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_rotation_30.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0028627763372183162,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0468,
+      "recall": 0.0437,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.687
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0468,
+      "recall": 0.0437,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.687
+    },
+    "timestamp": 1755593945.4559064
+  },
+  {
+    "test_id": 13,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "scale_down_90",
+    "attack_category": "scaling",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "factor": 0.9
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_scale_down_90.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0030159390755469663,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0462,
+      "recall": 0.0429,
+      "f1_score": 0.0445,
+      "attribution_accuracy": 0.428
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0462,
+      "recall": 0.0429,
+      "f1_score": 0.0445,
+      "attribution_accuracy": 0.428
+    },
+    "timestamp": 1755593945.53224
+  },
+  {
+    "test_id": 14,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "scale_down_75",
+    "attack_category": "scaling",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "factor": 0.75
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_scale_down_75.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0027127115579751054,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0487,
+      "recall": 0.043,
+      "f1_score": 0.0457,
+      "attribution_accuracy": 0.5205
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0487,
+      "recall": 0.043,
+      "f1_score": 0.0457,
+      "attribution_accuracy": 0.5205
+    },
+    "timestamp": 1755593945.601327
+  },
+  {
+    "test_id": 15,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "scale_up_110",
+    "attack_category": "scaling",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "factor": 1.1
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_scale_up_110.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0027457100171913358,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0467,
+      "recall": 0.0466,
+      "f1_score": 0.0467,
+      "attribution_accuracy": 0.5161
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0467,
+      "recall": 0.0466,
+      "f1_score": 0.0467,
+      "attribution_accuracy": 0.5161
+    },
+    "timestamp": 1755593945.6839983
+  },
+  {
+    "test_id": 16,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "crop_5",
+    "attack_category": "cropping",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "percentage": 0.05
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_crop_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0025232222157518243,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.047,
+      "recall": 0.0454,
+      "f1_score": 0.0462,
+      "attribution_accuracy": 0.478
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.047,
+      "recall": 0.0454,
+      "f1_score": 0.0462,
+      "attribution_accuracy": 0.478
+    },
+    "timestamp": 1755593945.7649648
+  },
+  {
+    "test_id": 17,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "crop_15",
+    "attack_category": "cropping",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "percentage": 0.15
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_crop_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.001844475281444433,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0459,
+      "recall": 0.0454,
+      "f1_score": 0.0456,
+      "attribution_accuracy": 0.4161
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0459,
+      "recall": 0.0454,
+      "f1_score": 0.0456,
+      "attribution_accuracy": 0.4161
+    },
+    "timestamp": 1755593945.8487954
+  },
+  {
+    "test_id": 18,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "crop_25",
+    "attack_category": "cropping",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "percentage": 0.25
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_crop_25.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002971053275706382,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0449,
+      "recall": 0.0456,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.5627
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0449,
+      "recall": 0.0456,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.5627
+    },
+    "timestamp": 1755593945.9310386
+  },
+  {
+    "test_id": 19,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "sharpen_weak",
+    "attack_category": "sharpening",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.2
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_sharpen_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.03764012633497533,
+      "attribution_correct": false,
+      "detection_rate": 0.3746,
+      "precision": 0.333,
+      "recall": 0.3468,
+      "f1_score": 0.3398,
+      "attribution_accuracy": 0.6507
+    },
+    "metrics": {
+      "detection_rate": 0.3746,
+      "precision": 0.333,
+      "recall": 0.3468,
+      "f1_score": 0.3398,
+      "attribution_accuracy": 0.6507
+    },
+    "timestamp": 1755593946.011667
+  },
+  {
+    "test_id": 20,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "sharpen_medium",
+    "attack_category": "sharpening",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.5
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_sharpen_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.039944001927954435,
+      "attribution_correct": false,
+      "detection_rate": 0.4333,
+      "precision": 0.4178,
+      "recall": 0.4072,
+      "f1_score": 0.4124,
+      "attribution_accuracy": 0.6692
+    },
+    "metrics": {
+      "detection_rate": 0.4333,
+      "precision": 0.4178,
+      "recall": 0.4072,
+      "f1_score": 0.4124,
+      "attribution_accuracy": 0.6692
+    },
+    "timestamp": 1755593946.0957944
+  },
+  {
+    "test_id": 21,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "attack_name": "sharpen_strong",
+    "attack_category": "sharpening",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.8
+    },
+    "original_filename": "original_000.png",
+    "watermarked_filename": "watermarked_000.png",
+    "attacked_filename": "attacked_000_sharpen_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_004",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.25159088058806045,
+      "signature": "64652582b5a8fb1d"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.04177298318999015,
+      "attribution_correct": false,
+      "detection_rate": 0.4211,
+      "precision": 0.3871,
+      "recall": 0.3877,
+      "f1_score": 0.3874,
+      "attribution_accuracy": 0.4103
+    },
+    "metrics": {
+      "detection_rate": 0.4211,
+      "precision": 0.3871,
+      "recall": 0.3877,
+      "f1_score": 0.3874,
+      "attribution_accuracy": 0.4103
+    },
+    "timestamp": 1755593946.1837385
+  },
+  {
+    "test_id": 22,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "sigma": 1.0
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_blur_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.010418872193555806,
+      "attribution_correct": false,
+      "detection_rate": 0.1105,
+      "precision": 0.0979,
+      "recall": 0.0952,
+      "f1_score": 0.0966,
+      "attribution_accuracy": 0.6044
+    },
+    "metrics": {
+      "detection_rate": 0.1105,
+      "precision": 0.0979,
+      "recall": 0.0952,
+      "f1_score": 0.0966,
+      "attribution_accuracy": 0.6044
+    },
+    "timestamp": 1755593946.4269068
+  },
+  {
+    "test_id": 23,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "sigma": 2.5
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_blur_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0023826950704994242,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0459,
+      "recall": 0.0435,
+      "f1_score": 0.0447,
+      "attribution_accuracy": 0.4951
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0459,
+      "recall": 0.0435,
+      "f1_score": 0.0447,
+      "attribution_accuracy": 0.4951
+    },
+    "timestamp": 1755593946.5390375
+  },
+  {
+    "test_id": 24,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "sigma": 4.0
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_blur_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0017476832317295382,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0459,
+      "recall": 0.0455,
+      "f1_score": 0.0457,
+      "attribution_accuracy": 0.6069
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0459,
+      "recall": 0.0455,
+      "f1_score": 0.0457,
+      "attribution_accuracy": 0.6069
+    },
+    "timestamp": 1755593946.6290607
+  },
+  {
+    "test_id": 25,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "jpeg_80",
+    "attack_category": "jpeg",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "quality": 80
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_jpeg_80.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.03443540831670414,
+      "attribution_correct": false,
+      "detection_rate": 0.3578,
+      "precision": 0.3244,
+      "recall": 0.3329,
+      "f1_score": 0.3286,
+      "attribution_accuracy": 0.5365
+    },
+    "metrics": {
+      "detection_rate": 0.3578,
+      "precision": 0.3244,
+      "recall": 0.3329,
+      "f1_score": 0.3286,
+      "attribution_accuracy": 0.5365
+    },
+    "timestamp": 1755593946.7161734
+  },
+  {
+    "test_id": 26,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "jpeg_50",
+    "attack_category": "jpeg",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "quality": 50
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_jpeg_50.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.02028345677991952,
+      "attribution_correct": false,
+      "detection_rate": 0.1867,
+      "precision": 0.1702,
+      "recall": 0.1591,
+      "f1_score": 0.1645,
+      "attribution_accuracy": 0.5598
+    },
+    "metrics": {
+      "detection_rate": 0.1867,
+      "precision": 0.1702,
+      "recall": 0.1591,
+      "f1_score": 0.1645,
+      "attribution_accuracy": 0.5598
+    },
+    "timestamp": 1755593946.8097823
+  },
+  {
+    "test_id": 27,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "jpeg_20",
+    "attack_category": "jpeg",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "quality": 20
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_jpeg_20.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.011020221353080478,
+      "attribution_correct": false,
+      "detection_rate": 0.0994,
+      "precision": 0.0962,
+      "recall": 0.0913,
+      "f1_score": 0.0937,
+      "attribution_accuracy": 0.6876
+    },
+    "metrics": {
+      "detection_rate": 0.0994,
+      "precision": 0.0962,
+      "recall": 0.0913,
+      "f1_score": 0.0937,
+      "attribution_accuracy": 0.6876
+    },
+    "timestamp": 1755593946.8809521
+  },
+  {
+    "test_id": 28,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "noise_weak",
+    "attack_category": "noise",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.1
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_noise_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.024624895251460294,
+      "attribution_correct": false,
+      "detection_rate": 0.2574,
+      "precision": 0.2401,
+      "recall": 0.2384,
+      "f1_score": 0.2392,
+      "attribution_accuracy": 0.6757
+    },
+    "metrics": {
+      "detection_rate": 0.2574,
+      "precision": 0.2401,
+      "recall": 0.2384,
+      "f1_score": 0.2392,
+      "attribution_accuracy": 0.6757
+    },
+    "timestamp": 1755593946.973839
+  },
+  {
+    "test_id": 29,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.25
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_noise_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.012972785484871052,
+      "attribution_correct": false,
+      "detection_rate": 0.1311,
+      "precision": 0.1199,
+      "recall": 0.1203,
+      "f1_score": 0.1201,
+      "attribution_accuracy": 0.6044
+    },
+    "metrics": {
+      "detection_rate": 0.1311,
+      "precision": 0.1199,
+      "recall": 0.1203,
+      "f1_score": 0.1201,
+      "attribution_accuracy": 0.6044
+    },
+    "timestamp": 1755593947.0812395
+  },
+  {
+    "test_id": 30,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "noise_strong",
+    "attack_category": "noise",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.4
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_noise_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.008004717399984193,
+      "attribution_correct": false,
+      "detection_rate": 0.0873,
+      "precision": 0.0849,
+      "recall": 0.0778,
+      "f1_score": 0.0812,
+      "attribution_accuracy": 0.6665
+    },
+    "metrics": {
+      "detection_rate": 0.0873,
+      "precision": 0.0849,
+      "recall": 0.0778,
+      "f1_score": 0.0812,
+      "attribution_accuracy": 0.6665
+    },
+    "timestamp": 1755593947.2069347
+  },
+  {
+    "test_id": 31,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "rotation_5",
+    "attack_category": "rotation",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "angle": 5
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_rotation_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002050395535131474,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0445,
+      "recall": 0.0456,
+      "f1_score": 0.0451,
+      "attribution_accuracy": 0.5895
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0445,
+      "recall": 0.0456,
+      "f1_score": 0.0451,
+      "attribution_accuracy": 0.5895
+    },
+    "timestamp": 1755593947.326126
+  },
+  {
+    "test_id": 32,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "rotation_15",
+    "attack_category": "rotation",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "angle": 15
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_rotation_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0022861283677438654,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0477,
+      "recall": 0.047,
+      "f1_score": 0.0473,
+      "attribution_accuracy": 0.6893
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0477,
+      "recall": 0.047,
+      "f1_score": 0.0473,
+      "attribution_accuracy": 0.6893
+    },
+    "timestamp": 1755593947.4460256
+  },
+  {
+    "test_id": 33,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "rotation_30",
+    "attack_category": "rotation",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "angle": 30
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_rotation_30.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002722976893356427,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0488,
+      "recall": 0.045,
+      "f1_score": 0.0469,
+      "attribution_accuracy": 0.6641
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0488,
+      "recall": 0.045,
+      "f1_score": 0.0469,
+      "attribution_accuracy": 0.6641
+    },
+    "timestamp": 1755593947.622754
+  },
+  {
+    "test_id": 34,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "scale_down_90",
+    "attack_category": "scaling",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "factor": 0.9
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_scale_down_90.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0017351706307171387,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0454,
+      "recall": 0.0474,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.4997
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0454,
+      "recall": 0.0474,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.4997
+    },
+    "timestamp": 1755593947.6969934
+  },
+  {
+    "test_id": 35,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "scale_down_75",
+    "attack_category": "scaling",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "factor": 0.75
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_scale_down_75.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0016555637419924725,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.046,
+      "recall": 0.0468,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.4921
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.046,
+      "recall": 0.0468,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.4921
+    },
+    "timestamp": 1755593947.7634068
+  },
+  {
+    "test_id": 36,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "scale_up_110",
+    "attack_category": "scaling",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "factor": 1.1
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_scale_up_110.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.00218736675695565,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.046,
+      "recall": 0.0458,
+      "f1_score": 0.0459,
+      "attribution_accuracy": 0.4468
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.046,
+      "recall": 0.0458,
+      "f1_score": 0.0459,
+      "attribution_accuracy": 0.4468
+    },
+    "timestamp": 1755593947.8446915
+  },
+  {
+    "test_id": 37,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "crop_5",
+    "attack_category": "cropping",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "percentage": 0.05
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_crop_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0017609346739679912,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0479,
+      "recall": 0.0462,
+      "f1_score": 0.047,
+      "attribution_accuracy": 0.3346
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0479,
+      "recall": 0.0462,
+      "f1_score": 0.047,
+      "attribution_accuracy": 0.3346
+    },
+    "timestamp": 1755593947.9248157
+  },
+  {
+    "test_id": 38,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "crop_15",
+    "attack_category": "cropping",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "percentage": 0.15
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_crop_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.001281048594422458,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0445,
+      "recall": 0.0433,
+      "f1_score": 0.0439,
+      "attribution_accuracy": 0.636
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0445,
+      "recall": 0.0433,
+      "f1_score": 0.0439,
+      "attribution_accuracy": 0.636
+    },
+    "timestamp": 1755593948.007474
+  },
+  {
+    "test_id": 39,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "crop_25",
+    "attack_category": "cropping",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "percentage": 0.25
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_crop_25.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0029455632567233652,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0477,
+      "recall": 0.0448,
+      "f1_score": 0.0462,
+      "attribution_accuracy": 0.4234
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0477,
+      "recall": 0.0448,
+      "f1_score": 0.0462,
+      "attribution_accuracy": 0.4234
+    },
+    "timestamp": 1755593948.0878413
+  },
+  {
+    "test_id": 40,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "sharpen_weak",
+    "attack_category": "sharpening",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.2
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_sharpen_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.03521197166225293,
+      "attribution_correct": false,
+      "detection_rate": 0.3766,
+      "precision": 0.3546,
+      "recall": 0.3419,
+      "f1_score": 0.3482,
+      "attribution_accuracy": 0.5589
+    },
+    "metrics": {
+      "detection_rate": 0.3766,
+      "precision": 0.3546,
+      "recall": 0.3419,
+      "f1_score": 0.3482,
+      "attribution_accuracy": 0.5589
+    },
+    "timestamp": 1755593948.1695354
+  },
+  {
+    "test_id": 41,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "sharpen_medium",
+    "attack_category": "sharpening",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.5
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_sharpen_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0378204100451447,
+      "attribution_correct": false,
+      "detection_rate": 0.3531,
+      "precision": 0.3188,
+      "recall": 0.3006,
+      "f1_score": 0.3094,
+      "attribution_accuracy": 0.3798
+    },
+    "metrics": {
+      "detection_rate": 0.3531,
+      "precision": 0.3188,
+      "recall": 0.3006,
+      "f1_score": 0.3094,
+      "attribution_accuracy": 0.3798
+    },
+    "timestamp": 1755593948.2559721
+  },
+  {
+    "test_id": 42,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "attack_name": "sharpen_strong",
+    "attack_category": "sharpening",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.8
+    },
+    "original_filename": "original_001.png",
+    "watermarked_filename": "watermarked_001.png",
+    "attacked_filename": "attacked_001_sharpen_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21384077496444243,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.04012628300104679,
+      "attribution_correct": false,
+      "detection_rate": 0.435,
+      "precision": 0.4066,
+      "recall": 0.3873,
+      "f1_score": 0.3967,
+      "attribution_accuracy": 0.4375
+    },
+    "metrics": {
+      "detection_rate": 0.435,
+      "precision": 0.4066,
+      "recall": 0.3873,
+      "f1_score": 0.3967,
+      "attribution_accuracy": 0.4375
+    },
+    "timestamp": 1755593948.337479
+  },
+  {
+    "test_id": 43,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "sigma": 1.0
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_blur_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0025748990588542373,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0448,
+      "recall": 0.0465,
+      "f1_score": 0.0457,
+      "attribution_accuracy": 0.6415
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0448,
+      "recall": 0.0465,
+      "f1_score": 0.0457,
+      "attribution_accuracy": 0.6415
+    },
+    "timestamp": 1755593948.5878935
+  },
+  {
+    "test_id": 44,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "sigma": 2.5
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_blur_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002080327284555708,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0451,
+      "recall": 0.0427,
+      "f1_score": 0.0438,
+      "attribution_accuracy": 0.5725
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0451,
+      "recall": 0.0427,
+      "f1_score": 0.0438,
+      "attribution_accuracy": 0.5725
+    },
+    "timestamp": 1755593948.6992216
+  },
+  {
+    "test_id": 45,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "sigma": 4.0
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_blur_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0020468717098105697,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0472,
+      "recall": 0.0465,
+      "f1_score": 0.0469,
+      "attribution_accuracy": 0.6441
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0472,
+      "recall": 0.0465,
+      "f1_score": 0.0469,
+      "attribution_accuracy": 0.6441
+    },
+    "timestamp": 1755593948.788077
+  },
+  {
+    "test_id": 46,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "jpeg_80",
+    "attack_category": "jpeg",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "quality": 80
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_jpeg_80.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.01851458575627563,
+      "attribution_correct": false,
+      "detection_rate": 0.1855,
+      "precision": 0.1701,
+      "recall": 0.175,
+      "f1_score": 0.1725,
+      "attribution_accuracy": 0.5008
+    },
+    "metrics": {
+      "detection_rate": 0.1855,
+      "precision": 0.1701,
+      "recall": 0.175,
+      "f1_score": 0.1725,
+      "attribution_accuracy": 0.5008
+    },
+    "timestamp": 1755593948.8760433
+  },
+  {
+    "test_id": 47,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "jpeg_50",
+    "attack_category": "jpeg",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "quality": 50
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_jpeg_50.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.009319805002780235,
+      "attribution_correct": false,
+      "detection_rate": 0.1007,
+      "precision": 0.0974,
+      "recall": 0.0892,
+      "f1_score": 0.0931,
+      "attribution_accuracy": 0.6727
+    },
+    "metrics": {
+      "detection_rate": 0.1007,
+      "precision": 0.0974,
+      "recall": 0.0892,
+      "f1_score": 0.0931,
+      "attribution_accuracy": 0.6727
+    },
+    "timestamp": 1755593948.9762957
+  },
+  {
+    "test_id": 48,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "jpeg_20",
+    "attack_category": "jpeg",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "quality": 20
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_jpeg_20.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0028091190200553004,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0461,
+      "recall": 0.0469,
+      "f1_score": 0.0465,
+      "attribution_accuracy": 0.3658
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0461,
+      "recall": 0.0469,
+      "f1_score": 0.0465,
+      "attribution_accuracy": 0.3658
+    },
+    "timestamp": 1755593949.0525582
+  },
+  {
+    "test_id": 49,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "noise_weak",
+    "attack_category": "noise",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.1
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_noise_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.014067084362463789,
+      "attribution_correct": false,
+      "detection_rate": 0.1316,
+      "precision": 0.1188,
+      "recall": 0.1142,
+      "f1_score": 0.1165,
+      "attribution_accuracy": 0.3694
+    },
+    "metrics": {
+      "detection_rate": 0.1316,
+      "precision": 0.1188,
+      "recall": 0.1142,
+      "f1_score": 0.1165,
+      "attribution_accuracy": 0.3694
+    },
+    "timestamp": 1755593949.143983
+  },
+  {
+    "test_id": 50,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.25
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_noise_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0077455008767867975,
+      "attribution_correct": false,
+      "detection_rate": 0.0776,
+      "precision": 0.0711,
+      "recall": 0.07,
+      "f1_score": 0.0705,
+      "attribution_accuracy": 0.524
+    },
+    "metrics": {
+      "detection_rate": 0.0776,
+      "precision": 0.0711,
+      "recall": 0.07,
+      "f1_score": 0.0705,
+      "attribution_accuracy": 0.524
+    },
+    "timestamp": 1755593949.2352295
+  },
+  {
+    "test_id": 51,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "noise_strong",
+    "attack_category": "noise",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.4
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_noise_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0049034641135021866,
+      "attribution_correct": false,
+      "detection_rate": 0.0539,
+      "precision": 0.0498,
+      "recall": 0.048,
+      "f1_score": 0.0489,
+      "attribution_accuracy": 0.5101
+    },
+    "metrics": {
+      "detection_rate": 0.0539,
+      "precision": 0.0498,
+      "recall": 0.048,
+      "f1_score": 0.0489,
+      "attribution_accuracy": 0.5101
+    },
+    "timestamp": 1755593949.3519301
+  },
+  {
+    "test_id": 52,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "rotation_5",
+    "attack_category": "rotation",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "angle": 5
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_rotation_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0015079978115095424,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0458,
+      "recall": 0.0455,
+      "f1_score": 0.0456,
+      "attribution_accuracy": 0.4448
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0458,
+      "recall": 0.0455,
+      "f1_score": 0.0456,
+      "attribution_accuracy": 0.4448
+    },
+    "timestamp": 1755593949.4359221
+  },
+  {
+    "test_id": 53,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "rotation_15",
+    "attack_category": "rotation",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "angle": 15
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_rotation_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002214363419062008,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0462,
+      "recall": 0.0473,
+      "f1_score": 0.0467,
+      "attribution_accuracy": 0.4599
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0462,
+      "recall": 0.0473,
+      "f1_score": 0.0467,
+      "attribution_accuracy": 0.4599
+    },
+    "timestamp": 1755593949.5413074
+  },
+  {
+    "test_id": 54,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "rotation_30",
+    "attack_category": "rotation",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "angle": 30
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_rotation_30.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0015010330051368327,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0473,
+      "recall": 0.0437,
+      "f1_score": 0.0454,
+      "attribution_accuracy": 0.4116
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0473,
+      "recall": 0.0437,
+      "f1_score": 0.0454,
+      "attribution_accuracy": 0.4116
+    },
+    "timestamp": 1755593949.7247677
+  },
+  {
+    "test_id": 55,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "scale_down_90",
+    "attack_category": "scaling",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "factor": 0.9
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_scale_down_90.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.003116519052630431,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0466,
+      "recall": 0.0465,
+      "f1_score": 0.0465,
+      "attribution_accuracy": 0.5647
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0466,
+      "recall": 0.0465,
+      "f1_score": 0.0465,
+      "attribution_accuracy": 0.5647
+    },
+    "timestamp": 1755593949.79967
+  },
+  {
+    "test_id": 56,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "scale_down_75",
+    "attack_category": "scaling",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "factor": 0.75
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_scale_down_75.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0034273757801738373,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0485,
+      "recall": 0.0443,
+      "f1_score": 0.0463,
+      "attribution_accuracy": 0.5904
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0485,
+      "recall": 0.0443,
+      "f1_score": 0.0463,
+      "attribution_accuracy": 0.5904
+    },
+    "timestamp": 1755593949.8654318
+  },
+  {
+    "test_id": 57,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "scale_up_110",
+    "attack_category": "scaling",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "factor": 1.1
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_scale_up_110.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0018413715744939397,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0463,
+      "recall": 0.0458,
+      "f1_score": 0.046,
+      "attribution_accuracy": 0.6762
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0463,
+      "recall": 0.0458,
+      "f1_score": 0.046,
+      "attribution_accuracy": 0.6762
+    },
+    "timestamp": 1755593949.9451709
+  },
+  {
+    "test_id": 58,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "crop_5",
+    "attack_category": "cropping",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "percentage": 0.05
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_crop_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.00159437218316942,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0482,
+      "recall": 0.0469,
+      "f1_score": 0.0475,
+      "attribution_accuracy": 0.5465
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0482,
+      "recall": 0.0469,
+      "f1_score": 0.0475,
+      "attribution_accuracy": 0.5465
+    },
+    "timestamp": 1755593950.024587
+  },
+  {
+    "test_id": 59,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "crop_15",
+    "attack_category": "cropping",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "percentage": 0.15
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_crop_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0015415130624298438,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0464,
+      "recall": 0.044,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.6197
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0464,
+      "recall": 0.044,
+      "f1_score": 0.0452,
+      "attribution_accuracy": 0.6197
+    },
+    "timestamp": 1755593950.1030097
+  },
+  {
+    "test_id": 60,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "crop_25",
+    "attack_category": "cropping",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "percentage": 0.25
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_crop_25.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0025013779059526614,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0468,
+      "recall": 0.045,
+      "f1_score": 0.0459,
+      "attribution_accuracy": 0.5463
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0468,
+      "recall": 0.045,
+      "f1_score": 0.0459,
+      "attribution_accuracy": 0.5463
+    },
+    "timestamp": 1755593950.1815534
+  },
+  {
+    "test_id": 61,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "sharpen_weak",
+    "attack_category": "sharpening",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.2
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_sharpen_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.020580668288152953,
+      "attribution_correct": false,
+      "detection_rate": 0.202,
+      "precision": 0.1925,
+      "recall": 0.1815,
+      "f1_score": 0.1869,
+      "attribution_accuracy": 0.4466
+    },
+    "metrics": {
+      "detection_rate": 0.202,
+      "precision": 0.1925,
+      "recall": 0.1815,
+      "f1_score": 0.1869,
+      "attribution_accuracy": 0.4466
+    },
+    "timestamp": 1755593950.265605
+  },
+  {
+    "test_id": 62,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "sharpen_medium",
+    "attack_category": "sharpening",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.5
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_sharpen_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.02205700999265867,
+      "attribution_correct": false,
+      "detection_rate": 0.2287,
+      "precision": 0.2214,
+      "recall": 0.2123,
+      "f1_score": 0.2168,
+      "attribution_accuracy": 0.4366
+    },
+    "metrics": {
+      "detection_rate": 0.2287,
+      "precision": 0.2214,
+      "recall": 0.2123,
+      "f1_score": 0.2168,
+      "attribution_accuracy": 0.4366
+    },
+    "timestamp": 1755593950.3443646
+  },
+  {
+    "test_id": 63,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "attack_name": "sharpen_strong",
+    "attack_category": "sharpening",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.8
+    },
+    "original_filename": "original_002.png",
+    "watermarked_filename": "watermarked_002.png",
+    "attacked_filename": "attacked_002_sharpen_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_001",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.11831695748101473,
+      "signature": "942653115fd44585"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.02326679185062173,
+      "attribution_correct": false,
+      "detection_rate": 0.2098,
+      "precision": 0.2017,
+      "recall": 0.1992,
+      "f1_score": 0.2005,
+      "attribution_accuracy": 0.3425
+    },
+    "metrics": {
+      "detection_rate": 0.2098,
+      "precision": 0.2017,
+      "recall": 0.1992,
+      "f1_score": 0.2005,
+      "attribution_accuracy": 0.3425
+    },
+    "timestamp": 1755593950.4228528
+  },
+  {
+    "test_id": 64,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "sigma": 1.0
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_blur_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.010411419256700414,
+      "attribution_correct": false,
+      "detection_rate": 0.0964,
+      "precision": 0.0937,
+      "recall": 0.0865,
+      "f1_score": 0.09,
+      "attribution_accuracy": 0.5323
+    },
+    "metrics": {
+      "detection_rate": 0.0964,
+      "precision": 0.0937,
+      "recall": 0.0865,
+      "f1_score": 0.09,
+      "attribution_accuracy": 0.5323
+    },
+    "timestamp": 1755593950.663979
+  },
+  {
+    "test_id": 65,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "sigma": 2.5
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_blur_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0023246146998347574,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0485,
+      "recall": 0.0448,
+      "f1_score": 0.0466,
+      "attribution_accuracy": 0.5203
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0485,
+      "recall": 0.0448,
+      "f1_score": 0.0466,
+      "attribution_accuracy": 0.5203
+    },
+    "timestamp": 1755593950.7774513
+  },
+  {
+    "test_id": 66,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "sigma": 4.0
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_blur_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0021477934053600067,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0476,
+      "recall": 0.0452,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.5199
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0476,
+      "recall": 0.0452,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.5199
+    },
+    "timestamp": 1755593950.8680701
+  },
+  {
+    "test_id": 67,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "jpeg_80",
+    "attack_category": "jpeg",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "quality": 80
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_jpeg_80.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0405694522758151,
+      "attribution_correct": false,
+      "detection_rate": 0.3973,
+      "precision": 0.3839,
+      "recall": 0.347,
+      "f1_score": 0.3645,
+      "attribution_accuracy": 0.3606
+    },
+    "metrics": {
+      "detection_rate": 0.3973,
+      "precision": 0.3839,
+      "recall": 0.347,
+      "f1_score": 0.3645,
+      "attribution_accuracy": 0.3606
+    },
+    "timestamp": 1755593950.9527469
+  },
+  {
+    "test_id": 68,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "jpeg_50",
+    "attack_category": "jpeg",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "quality": 50
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_jpeg_50.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.023835424067674898,
+      "attribution_correct": false,
+      "detection_rate": 0.2587,
+      "precision": 0.2377,
+      "recall": 0.2202,
+      "f1_score": 0.2286,
+      "attribution_accuracy": 0.6109
+    },
+    "metrics": {
+      "detection_rate": 0.2587,
+      "precision": 0.2377,
+      "recall": 0.2202,
+      "f1_score": 0.2286,
+      "attribution_accuracy": 0.6109
+    },
+    "timestamp": 1755593951.0492895
+  },
+  {
+    "test_id": 69,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "jpeg_20",
+    "attack_category": "jpeg",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "quality": 20
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_jpeg_20.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.012322101502732705,
+      "attribution_correct": false,
+      "detection_rate": 0.1148,
+      "precision": 0.112,
+      "recall": 0.0981,
+      "f1_score": 0.1046,
+      "attribution_accuracy": 0.612
+    },
+    "metrics": {
+      "detection_rate": 0.1148,
+      "precision": 0.112,
+      "recall": 0.0981,
+      "f1_score": 0.1046,
+      "attribution_accuracy": 0.612
+    },
+    "timestamp": 1755593951.1277592
+  },
+  {
+    "test_id": 70,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "noise_weak",
+    "attack_category": "noise",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.1
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_noise_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.026823726996183118,
+      "attribution_correct": false,
+      "detection_rate": 0.2856,
+      "precision": 0.259,
+      "recall": 0.2597,
+      "f1_score": 0.2594,
+      "attribution_accuracy": 0.6681
+    },
+    "metrics": {
+      "detection_rate": 0.2856,
+      "precision": 0.259,
+      "recall": 0.2597,
+      "f1_score": 0.2594,
+      "attribution_accuracy": 0.6681
+    },
+    "timestamp": 1755593951.2154846
+  },
+  {
+    "test_id": 71,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.25
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_noise_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.013854446477844598,
+      "attribution_correct": false,
+      "detection_rate": 0.1354,
+      "precision": 0.1299,
+      "recall": 0.1209,
+      "f1_score": 0.1252,
+      "attribution_accuracy": 0.5913
+    },
+    "metrics": {
+      "detection_rate": 0.1354,
+      "precision": 0.1299,
+      "recall": 0.1209,
+      "f1_score": 0.1252,
+      "attribution_accuracy": 0.5913
+    },
+    "timestamp": 1755593951.3159246
+  },
+  {
+    "test_id": 72,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "noise_strong",
+    "attack_category": "noise",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.4
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_noise_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.008608564704949228,
+      "attribution_correct": false,
+      "detection_rate": 0.0874,
+      "precision": 0.0853,
+      "recall": 0.0755,
+      "f1_score": 0.0801,
+      "attribution_accuracy": 0.4462
+    },
+    "metrics": {
+      "detection_rate": 0.0874,
+      "precision": 0.0853,
+      "recall": 0.0755,
+      "f1_score": 0.0801,
+      "attribution_accuracy": 0.4462
+    },
+    "timestamp": 1755593951.4340303
+  },
+  {
+    "test_id": 73,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "rotation_5",
+    "attack_category": "rotation",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "angle": 5
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_rotation_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0014467688100011072,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0465,
+      "recall": 0.0438,
+      "f1_score": 0.0451,
+      "attribution_accuracy": 0.5688
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0465,
+      "recall": 0.0438,
+      "f1_score": 0.0451,
+      "attribution_accuracy": 0.5688
+    },
+    "timestamp": 1755593951.5223255
+  },
+  {
+    "test_id": 74,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "rotation_15",
+    "attack_category": "rotation",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "angle": 15
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_rotation_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002585890824208337,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0483,
+      "recall": 0.0446,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.6334
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0483,
+      "recall": 0.0446,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.6334
+    },
+    "timestamp": 1755593951.6313744
+  },
+  {
+    "test_id": 75,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "rotation_30",
+    "attack_category": "rotation",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "angle": 30
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_rotation_30.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0015543608173856378,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0467,
+      "recall": 0.0445,
+      "f1_score": 0.0456,
+      "attribution_accuracy": 0.393
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0467,
+      "recall": 0.0445,
+      "f1_score": 0.0456,
+      "attribution_accuracy": 0.393
+    },
+    "timestamp": 1755593951.8157718
+  },
+  {
+    "test_id": 76,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "scale_down_90",
+    "attack_category": "scaling",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "factor": 0.9
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_scale_down_90.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0026839494785053496,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0486,
+      "recall": 0.0426,
+      "f1_score": 0.0454,
+      "attribution_accuracy": 0.4119
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0486,
+      "recall": 0.0426,
+      "f1_score": 0.0454,
+      "attribution_accuracy": 0.4119
+    },
+    "timestamp": 1755593951.8894665
+  },
+  {
+    "test_id": 77,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "scale_down_75",
+    "attack_category": "scaling",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "factor": 0.75
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_scale_down_75.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002163492697310039,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0475,
+      "recall": 0.046,
+      "f1_score": 0.0467,
+      "attribution_accuracy": 0.4306
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0475,
+      "recall": 0.046,
+      "f1_score": 0.0467,
+      "attribution_accuracy": 0.4306
+    },
+    "timestamp": 1755593951.9557464
+  },
+  {
+    "test_id": 78,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "scale_up_110",
+    "attack_category": "scaling",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "factor": 1.1
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_scale_up_110.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002202675459204824,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0469,
+      "recall": 0.043,
+      "f1_score": 0.0449,
+      "attribution_accuracy": 0.5622
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0469,
+      "recall": 0.043,
+      "f1_score": 0.0449,
+      "attribution_accuracy": 0.5622
+    },
+    "timestamp": 1755593952.0359268
+  },
+  {
+    "test_id": 79,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "crop_5",
+    "attack_category": "cropping",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "percentage": 0.05
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_crop_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.00252638970711759,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0489,
+      "recall": 0.0438,
+      "f1_score": 0.0462,
+      "attribution_accuracy": 0.3498
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0489,
+      "recall": 0.0438,
+      "f1_score": 0.0462,
+      "attribution_accuracy": 0.3498
+    },
+    "timestamp": 1755593952.1160612
+  },
+  {
+    "test_id": 80,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "crop_15",
+    "attack_category": "cropping",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "percentage": 0.15
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_crop_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.00215161650699127,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0472,
+      "recall": 0.0449,
+      "f1_score": 0.046,
+      "attribution_accuracy": 0.4376
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0472,
+      "recall": 0.0449,
+      "f1_score": 0.046,
+      "attribution_accuracy": 0.4376
+    },
+    "timestamp": 1755593952.1953075
+  },
+  {
+    "test_id": 81,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "crop_25",
+    "attack_category": "cropping",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "percentage": 0.25
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_crop_25.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002052416077579101,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0485,
+      "recall": 0.0426,
+      "f1_score": 0.0454,
+      "attribution_accuracy": 0.4709
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0485,
+      "recall": 0.0426,
+      "f1_score": 0.0454,
+      "attribution_accuracy": 0.4709
+    },
+    "timestamp": 1755593952.2799308
+  },
+  {
+    "test_id": 82,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "sharpen_weak",
+    "attack_category": "sharpening",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.2
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_sharpen_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.03872787589914798,
+      "attribution_correct": false,
+      "detection_rate": 0.3807,
+      "precision": 0.3396,
+      "recall": 0.3466,
+      "f1_score": 0.3431,
+      "attribution_accuracy": 0.6047
+    },
+    "metrics": {
+      "detection_rate": 0.3807,
+      "precision": 0.3396,
+      "recall": 0.3466,
+      "f1_score": 0.3431,
+      "attribution_accuracy": 0.6047
+    },
+    "timestamp": 1755593952.3592253
+  },
+  {
+    "test_id": 83,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "sharpen_medium",
+    "attack_category": "sharpening",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.5
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_sharpen_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.04142732201749913,
+      "attribution_correct": false,
+      "detection_rate": 0.4041,
+      "precision": 0.3793,
+      "recall": 0.3658,
+      "f1_score": 0.3724,
+      "attribution_accuracy": 0.6688
+    },
+    "metrics": {
+      "detection_rate": 0.4041,
+      "precision": 0.3793,
+      "recall": 0.3658,
+      "f1_score": 0.3724,
+      "attribution_accuracy": 0.6688
+    },
+    "timestamp": 1755593952.438616
+  },
+  {
+    "test_id": 84,
+    "prompt_id": 3,
+    "prompt": "Field of sunflowers under blue sky",
+    "attack_name": "sharpen_strong",
+    "attack_category": "sharpening",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.8
+    },
+    "original_filename": "original_003.png",
+    "watermarked_filename": "watermarked_003.png",
+    "attacked_filename": "attacked_003_sharpen_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.21852818212543312,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.04379460125377371,
+      "attribution_correct": false,
+      "detection_rate": 0.4186,
+      "precision": 0.3782,
+      "recall": 0.3573,
+      "f1_score": 0.3675,
+      "attribution_accuracy": 0.3029
+    },
+    "metrics": {
+      "detection_rate": 0.4186,
+      "precision": 0.3782,
+      "recall": 0.3573,
+      "f1_score": 0.3675,
+      "attribution_accuracy": 0.3029
+    },
+    "timestamp": 1755593952.517692
+  },
+  {
+    "test_id": 85,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "sigma": 1.0
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_blur_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.004705083236415791,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0464,
+      "recall": 0.043,
+      "f1_score": 0.0446,
+      "attribution_accuracy": 0.3079
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0464,
+      "recall": 0.043,
+      "f1_score": 0.0446,
+      "attribution_accuracy": 0.3079
+    },
+    "timestamp": 1755593952.7679465
+  },
+  {
+    "test_id": 86,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "sigma": 2.5
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_blur_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002001069783108867,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0454,
+      "recall": 0.0475,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.3235
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0454,
+      "recall": 0.0475,
+      "f1_score": 0.0464,
+      "attribution_accuracy": 0.3235
+    },
+    "timestamp": 1755593952.8777125
+  },
+  {
+    "test_id": 87,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "sigma": 4.0
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_blur_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002046743477326299,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0458,
+      "recall": 0.0464,
+      "f1_score": 0.0461,
+      "attribution_accuracy": 0.6307
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0458,
+      "recall": 0.0464,
+      "f1_score": 0.0461,
+      "attribution_accuracy": 0.6307
+    },
+    "timestamp": 1755593952.9661372
+  },
+  {
+    "test_id": 88,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "jpeg_80",
+    "attack_category": "jpeg",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "quality": 80
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_jpeg_80.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.01575781284375918,
+      "attribution_correct": false,
+      "detection_rate": 0.1501,
+      "precision": 0.1462,
+      "recall": 0.1279,
+      "f1_score": 0.1365,
+      "attribution_accuracy": 0.5563
+    },
+    "metrics": {
+      "detection_rate": 0.1501,
+      "precision": 0.1462,
+      "recall": 0.1279,
+      "f1_score": 0.1365,
+      "attribution_accuracy": 0.5563
+    },
+    "timestamp": 1755593953.052232
+  },
+  {
+    "test_id": 89,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "jpeg_50",
+    "attack_category": "jpeg",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "quality": 50
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_jpeg_50.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.00997916460234028,
+      "attribution_correct": false,
+      "detection_rate": 0.095,
+      "precision": 0.0862,
+      "recall": 0.0823,
+      "f1_score": 0.0842,
+      "attribution_accuracy": 0.4159
+    },
+    "metrics": {
+      "detection_rate": 0.095,
+      "precision": 0.0862,
+      "recall": 0.0823,
+      "f1_score": 0.0842,
+      "attribution_accuracy": 0.4159
+    },
+    "timestamp": 1755593953.1455033
+  },
+  {
+    "test_id": 90,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "jpeg_20",
+    "attack_category": "jpeg",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "quality": 20
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_jpeg_20.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.005453944635616927,
+      "attribution_correct": false,
+      "detection_rate": 0.0585,
+      "precision": 0.0571,
+      "recall": 0.0547,
+      "f1_score": 0.0559,
+      "attribution_accuracy": 0.449
+    },
+    "metrics": {
+      "detection_rate": 0.0585,
+      "precision": 0.0571,
+      "recall": 0.0547,
+      "f1_score": 0.0559,
+      "attribution_accuracy": 0.449
+    },
+    "timestamp": 1755593953.217581
+  },
+  {
+    "test_id": 91,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "noise_weak",
+    "attack_category": "noise",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.1
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_noise_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.014799450357706377,
+      "attribution_correct": false,
+      "detection_rate": 0.1582,
+      "precision": 0.1446,
+      "recall": 0.1406,
+      "f1_score": 0.1426,
+      "attribution_accuracy": 0.3995
+    },
+    "metrics": {
+      "detection_rate": 0.1582,
+      "precision": 0.1446,
+      "recall": 0.1406,
+      "f1_score": 0.1426,
+      "attribution_accuracy": 0.3995
+    },
+    "timestamp": 1755593953.3152494
+  },
+  {
+    "test_id": 92,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.25
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_noise_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.00795072841406703,
+      "attribution_correct": false,
+      "detection_rate": 0.0755,
+      "precision": 0.0685,
+      "recall": 0.0713,
+      "f1_score": 0.0699,
+      "attribution_accuracy": 0.6272
+    },
+    "metrics": {
+      "detection_rate": 0.0755,
+      "precision": 0.0685,
+      "recall": 0.0713,
+      "f1_score": 0.0699,
+      "attribution_accuracy": 0.6272
+    },
+    "timestamp": 1755593953.4399235
+  },
+  {
+    "test_id": 93,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "noise_strong",
+    "attack_category": "noise",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.4
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_noise_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.005251095073047406,
+      "attribution_correct": false,
+      "detection_rate": 0.0572,
+      "precision": 0.0551,
+      "recall": 0.0486,
+      "f1_score": 0.0517,
+      "attribution_accuracy": 0.4168
+    },
+    "metrics": {
+      "detection_rate": 0.0572,
+      "precision": 0.0551,
+      "recall": 0.0486,
+      "f1_score": 0.0517,
+      "attribution_accuracy": 0.4168
+    },
+    "timestamp": 1755593953.5711834
+  },
+  {
+    "test_id": 94,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "rotation_5",
+    "attack_category": "rotation",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "angle": 5
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_rotation_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.003525880951799039,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0456,
+      "recall": 0.0463,
+      "f1_score": 0.0459,
+      "attribution_accuracy": 0.3781
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0456,
+      "recall": 0.0463,
+      "f1_score": 0.0459,
+      "attribution_accuracy": 0.3781
+    },
+    "timestamp": 1755593953.659837
+  },
+  {
+    "test_id": 95,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "rotation_15",
+    "attack_category": "rotation",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "angle": 15
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_rotation_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0030654191191203093,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0454,
+      "recall": 0.0448,
+      "f1_score": 0.0451,
+      "attribution_accuracy": 0.3933
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0454,
+      "recall": 0.0448,
+      "f1_score": 0.0451,
+      "attribution_accuracy": 0.3933
+    },
+    "timestamp": 1755593953.7708275
+  },
+  {
+    "test_id": 96,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "rotation_30",
+    "attack_category": "rotation",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "angle": 30
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_rotation_30.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0027466117030056445,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.048,
+      "recall": 0.0429,
+      "f1_score": 0.0453,
+      "attribution_accuracy": 0.4851
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.048,
+      "recall": 0.0429,
+      "f1_score": 0.0453,
+      "attribution_accuracy": 0.4851
+    },
+    "timestamp": 1755593953.9452372
+  },
+  {
+    "test_id": 97,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "scale_down_90",
+    "attack_category": "scaling",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "factor": 0.9
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_scale_down_90.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002021577416708564,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0466,
+      "recall": 0.0457,
+      "f1_score": 0.0462,
+      "attribution_accuracy": 0.5804
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0466,
+      "recall": 0.0457,
+      "f1_score": 0.0462,
+      "attribution_accuracy": 0.5804
+    },
+    "timestamp": 1755593954.0193443
+  },
+  {
+    "test_id": 98,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "scale_down_75",
+    "attack_category": "scaling",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "factor": 0.75
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_scale_down_75.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0021153659182003687,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0474,
+      "recall": 0.0428,
+      "f1_score": 0.045,
+      "attribution_accuracy": 0.6654
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0474,
+      "recall": 0.0428,
+      "f1_score": 0.045,
+      "attribution_accuracy": 0.6654
+    },
+    "timestamp": 1755593954.0845542
+  },
+  {
+    "test_id": 99,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "scale_up_110",
+    "attack_category": "scaling",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "factor": 1.1
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_scale_up_110.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002245815747931867,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0462,
+      "recall": 0.0434,
+      "f1_score": 0.0448,
+      "attribution_accuracy": 0.4744
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0462,
+      "recall": 0.0434,
+      "f1_score": 0.0448,
+      "attribution_accuracy": 0.4744
+    },
+    "timestamp": 1755593954.1656961
+  },
+  {
+    "test_id": 100,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "crop_5",
+    "attack_category": "cropping",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "percentage": 0.05
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_crop_5.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0013519329149290346,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0472,
+      "recall": 0.0435,
+      "f1_score": 0.0453,
+      "attribution_accuracy": 0.4294
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0472,
+      "recall": 0.0435,
+      "f1_score": 0.0453,
+      "attribution_accuracy": 0.4294
+    },
+    "timestamp": 1755593954.2467942
+  },
+  {
+    "test_id": 101,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "crop_15",
+    "attack_category": "cropping",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "percentage": 0.15
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_crop_15.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.0016889924401079345,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0475,
+      "recall": 0.0439,
+      "f1_score": 0.0456,
+      "attribution_accuracy": 0.5329
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0475,
+      "recall": 0.0439,
+      "f1_score": 0.0456,
+      "attribution_accuracy": 0.5329
+    },
+    "timestamp": 1755593954.3328898
+  },
+  {
+    "test_id": 102,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "crop_25",
+    "attack_category": "cropping",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "percentage": 0.25
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_crop_25.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.002121090420609447,
+      "attribution_correct": false,
+      "detection_rate": 0.05,
+      "precision": 0.0446,
+      "recall": 0.0472,
+      "f1_score": 0.0459,
+      "attribution_accuracy": 0.4164
+    },
+    "metrics": {
+      "detection_rate": 0.05,
+      "precision": 0.0446,
+      "recall": 0.0472,
+      "f1_score": 0.0459,
+      "attribution_accuracy": 0.4164
+    },
+    "timestamp": 1755593954.414065
+  },
+  {
+    "test_id": 103,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "sharpen_weak",
+    "attack_category": "sharpening",
+    "attack_intensity": "weak",
+    "attack_params": {
+      "strength": 0.2
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_sharpen_weak.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.02164069502449512,
+      "attribution_correct": false,
+      "detection_rate": 0.1959,
+      "precision": 0.1794,
+      "recall": 0.1681,
+      "f1_score": 0.1736,
+      "attribution_accuracy": 0.6858
+    },
+    "metrics": {
+      "detection_rate": 0.1959,
+      "precision": 0.1794,
+      "recall": 0.1681,
+      "f1_score": 0.1736,
+      "attribution_accuracy": 0.6858
+    },
+    "timestamp": 1755593954.498385
+  },
+  {
+    "test_id": 104,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "sharpen_medium",
+    "attack_category": "sharpening",
+    "attack_intensity": "medium",
+    "attack_params": {
+      "strength": 0.5
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_sharpen_medium.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.023200079626563407,
+      "attribution_correct": false,
+      "detection_rate": 0.2221,
+      "precision": 0.2104,
+      "recall": 0.196,
+      "f1_score": 0.203,
+      "attribution_accuracy": 0.4291
+    },
+    "metrics": {
+      "detection_rate": 0.2221,
+      "precision": 0.2104,
+      "recall": 0.196,
+      "f1_score": 0.203,
+      "attribution_accuracy": 0.4291
+    },
+    "timestamp": 1755593954.5852299
+  },
+  {
+    "test_id": 105,
+    "prompt_id": 4,
+    "prompt": "Misty morning in a pine forest",
+    "attack_name": "sharpen_strong",
+    "attack_category": "sharpening",
+    "attack_intensity": "strong",
+    "attack_params": {
+      "strength": 0.8
+    },
+    "original_filename": "original_004.png",
+    "watermarked_filename": "watermarked_004.png",
+    "attacked_filename": "attacked_004_sharpen_strong.png",
+    "watermark_info": {
+      "watermark_id": "ROBIN_WM_002",
+      "source_model": "ROBIN_v2.0",
+      "embedding_strength": 0.160659717177102,
+      "signature": "ab9df663c5eca511"
+    },
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_signature": null,
+      "confidence": 0.02492528716320135,
+      "attribution_correct": false,
+      "detection_rate": 0.2404,
+      "precision": 0.2152,
+      "recall": 0.22,
+      "f1_score": 0.2176,
+      "attribution_accuracy": 0.6445
+    },
+    "metrics": {
+      "detection_rate": 0.2404,
+      "precision": 0.2152,
+      "recall": 0.22,
+      "f1_score": 0.2176,
+      "attribution_accuracy": 0.6445
+    },
+    "timestamp": 1755593954.672298
+  }
+]

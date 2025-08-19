@@ -1,0 +1,1434 @@
+{
+  "metadata": {
+    "total_tests": 90,
+    "attack_categories": [
+      "blur",
+      "jpeg",
+      "noise",
+      "rotation",
+      "scaling",
+      "cropping"
+    ],
+    "metrics": [
+      "detection_rate",
+      "precision",
+      "recall",
+      "f1_score"
+    ],
+    "created_date": "2025-08-19",
+    "framework": "Minimal ROBIN Testing"
+  },
+  "results": [
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "blur",
+      "attack_name": "blur_weak",
+      "attack_params": {
+        "name": "blur_weak",
+        "sigma": 1.0
+      },
+      "detection_rate": 0.7943,
+      "precision": 0.7259,
+      "recall": 0.6931,
+      "f1_score": 0.7091,
+      "timestamp": 1755592126.4065506
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "blur",
+      "attack_name": "blur_medium",
+      "attack_params": {
+        "name": "blur_medium",
+        "sigma": 2.0
+      },
+      "detection_rate": 0.7836,
+      "precision": 0.7634,
+      "recall": 0.6857,
+      "f1_score": 0.7225,
+      "timestamp": 1755592126.456738
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "blur",
+      "attack_name": "blur_strong",
+      "attack_params": {
+        "name": "blur_strong",
+        "sigma": 3.0
+      },
+      "detection_rate": 0.7484,
+      "precision": 0.7274,
+      "recall": 0.7098,
+      "f1_score": 0.7185,
+      "timestamp": 1755592126.5069327
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_high",
+      "attack_params": {
+        "name": "jpeg_high",
+        "quality": 90
+      },
+      "detection_rate": 0.6253,
+      "precision": 0.5786,
+      "recall": 0.5695,
+      "f1_score": 0.574,
+      "timestamp": 1755592126.557132
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_medium",
+      "attack_params": {
+        "name": "jpeg_medium",
+        "quality": 50
+      },
+      "detection_rate": 0.7482,
+      "precision": 0.7185,
+      "recall": 0.668,
+      "f1_score": 0.6923,
+      "timestamp": 1755592126.6073465
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_low",
+      "attack_params": {
+        "name": "jpeg_low",
+        "quality": 30
+      },
+      "detection_rate": 0.7274,
+      "precision": 0.6621,
+      "recall": 0.657,
+      "f1_score": 0.6595,
+      "timestamp": 1755592126.6575093
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "noise",
+      "attack_name": "noise_weak",
+      "attack_params": {
+        "name": "noise_weak",
+        "strength": 0.1
+      },
+      "detection_rate": 0.6108,
+      "precision": 0.5894,
+      "recall": 0.5704,
+      "f1_score": 0.5798,
+      "timestamp": 1755592126.7077343
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "noise",
+      "attack_name": "noise_medium",
+      "attack_params": {
+        "name": "noise_medium",
+        "strength": 0.2
+      },
+      "detection_rate": 0.7394,
+      "precision": 0.7181,
+      "recall": 0.636,
+      "f1_score": 0.6745,
+      "timestamp": 1755592126.7579086
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "noise",
+      "attack_name": "noise_strong",
+      "attack_params": {
+        "name": "noise_strong",
+        "strength": 0.3
+      },
+      "detection_rate": 0.7076,
+      "precision": 0.6859,
+      "recall": 0.6571,
+      "f1_score": 0.6712,
+      "timestamp": 1755592126.8080616
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "rotation",
+      "attack_name": "rotation_5",
+      "attack_params": {
+        "name": "rotation_5",
+        "angle": 5
+      },
+      "detection_rate": 0.5648,
+      "precision": 0.5382,
+      "recall": 0.4863,
+      "f1_score": 0.5109,
+      "timestamp": 1755592126.8582242
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "rotation",
+      "attack_name": "rotation_10",
+      "attack_params": {
+        "name": "rotation_10",
+        "angle": 10
+      },
+      "detection_rate": 0.5651,
+      "precision": 0.5329,
+      "recall": 0.5213,
+      "f1_score": 0.527,
+      "timestamp": 1755592126.9084609
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "rotation",
+      "attack_name": "rotation_15",
+      "attack_params": {
+        "name": "rotation_15",
+        "angle": 15
+      },
+      "detection_rate": 0.4837,
+      "precision": 0.4359,
+      "recall": 0.4467,
+      "f1_score": 0.4412,
+      "timestamp": 1755592126.9586
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_80",
+      "attack_params": {
+        "name": "scale_down_80",
+        "factor": 0.8
+      },
+      "detection_rate": 0.6456,
+      "precision": 0.6308,
+      "recall": 0.5508,
+      "f1_score": 0.5881,
+      "timestamp": 1755592127.0088243
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_90",
+      "attack_params": {
+        "name": "scale_down_90",
+        "factor": 0.9
+      },
+      "detection_rate": 0.719,
+      "precision": 0.6506,
+      "recall": 0.6413,
+      "f1_score": 0.6459,
+      "timestamp": 1755592127.0589685
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "scaling",
+      "attack_name": "scale_up_110",
+      "attack_params": {
+        "name": "scale_up_110",
+        "factor": 1.1
+      },
+      "detection_rate": 0.5536,
+      "precision": 0.5501,
+      "recall": 0.4743,
+      "f1_score": 0.5094,
+      "timestamp": 1755592127.1091552
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "cropping",
+      "attack_name": "crop_5",
+      "attack_params": {
+        "name": "crop_5",
+        "percentage": 0.05
+      },
+      "detection_rate": 0.4303,
+      "precision": 0.3925,
+      "recall": 0.3739,
+      "f1_score": 0.383,
+      "timestamp": 1755592127.1593878
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "cropping",
+      "attack_name": "crop_10",
+      "attack_params": {
+        "name": "crop_10",
+        "percentage": 0.1
+      },
+      "detection_rate": 0.4805,
+      "precision": 0.4584,
+      "recall": 0.4326,
+      "f1_score": 0.4451,
+      "timestamp": 1755592127.2095397
+    },
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "attack_category": "cropping",
+      "attack_name": "crop_15",
+      "attack_params": {
+        "name": "crop_15",
+        "percentage": 0.15
+      },
+      "detection_rate": 0.4005,
+      "precision": 0.3872,
+      "recall": 0.3433,
+      "f1_score": 0.3639,
+      "timestamp": 1755592127.2597103
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "blur",
+      "attack_name": "blur_weak",
+      "attack_params": {
+        "name": "blur_weak",
+        "sigma": 1.0
+      },
+      "detection_rate": 0.7479,
+      "precision": 0.6956,
+      "recall": 0.6669,
+      "f1_score": 0.681,
+      "timestamp": 1755592127.4100816
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "blur",
+      "attack_name": "blur_medium",
+      "attack_params": {
+        "name": "blur_medium",
+        "sigma": 2.0
+      },
+      "detection_rate": 0.784,
+      "precision": 0.714,
+      "recall": 0.6986,
+      "f1_score": 0.7062,
+      "timestamp": 1755592127.460303
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "blur",
+      "attack_name": "blur_strong",
+      "attack_params": {
+        "name": "blur_strong",
+        "sigma": 3.0
+      },
+      "detection_rate": 0.7187,
+      "precision": 0.6911,
+      "recall": 0.6419,
+      "f1_score": 0.6656,
+      "timestamp": 1755592127.5104148
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_high",
+      "attack_params": {
+        "name": "jpeg_high",
+        "quality": 90
+      },
+      "detection_rate": 0.7622,
+      "precision": 0.6897,
+      "recall": 0.6901,
+      "f1_score": 0.6899,
+      "timestamp": 1755592127.5606313
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_medium",
+      "attack_params": {
+        "name": "jpeg_medium",
+        "quality": 50
+      },
+      "detection_rate": 0.6301,
+      "precision": 0.6012,
+      "recall": 0.5781,
+      "f1_score": 0.5895,
+      "timestamp": 1755592127.6107688
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_low",
+      "attack_params": {
+        "name": "jpeg_low",
+        "quality": 30
+      },
+      "detection_rate": 0.7474,
+      "precision": 0.7426,
+      "recall": 0.64,
+      "f1_score": 0.6875,
+      "timestamp": 1755592127.6609066
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "noise",
+      "attack_name": "noise_weak",
+      "attack_params": {
+        "name": "noise_weak",
+        "strength": 0.1
+      },
+      "detection_rate": 0.6441,
+      "precision": 0.6084,
+      "recall": 0.5593,
+      "f1_score": 0.5828,
+      "timestamp": 1755592127.7111409
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "noise",
+      "attack_name": "noise_medium",
+      "attack_params": {
+        "name": "noise_medium",
+        "strength": 0.2
+      },
+      "detection_rate": 0.7088,
+      "precision": 0.6838,
+      "recall": 0.6153,
+      "f1_score": 0.6477,
+      "timestamp": 1755592127.7613478
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "noise",
+      "attack_name": "noise_strong",
+      "attack_params": {
+        "name": "noise_strong",
+        "strength": 0.3
+      },
+      "detection_rate": 0.6856,
+      "precision": 0.6589,
+      "recall": 0.6136,
+      "f1_score": 0.6354,
+      "timestamp": 1755592127.811461
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "rotation",
+      "attack_name": "rotation_5",
+      "attack_params": {
+        "name": "rotation_5",
+        "angle": 5
+      },
+      "detection_rate": 0.5915,
+      "precision": 0.5517,
+      "recall": 0.5614,
+      "f1_score": 0.5565,
+      "timestamp": 1755592127.8615854
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "rotation",
+      "attack_name": "rotation_10",
+      "attack_params": {
+        "name": "rotation_10",
+        "angle": 10
+      },
+      "detection_rate": 0.6766,
+      "precision": 0.6394,
+      "recall": 0.6224,
+      "f1_score": 0.6308,
+      "timestamp": 1755592127.9117265
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "rotation",
+      "attack_name": "rotation_15",
+      "attack_params": {
+        "name": "rotation_15",
+        "angle": 15
+      },
+      "detection_rate": 0.501,
+      "precision": 0.4608,
+      "recall": 0.4316,
+      "f1_score": 0.4457,
+      "timestamp": 1755592127.9618347
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_80",
+      "attack_params": {
+        "name": "scale_down_80",
+        "factor": 0.8
+      },
+      "detection_rate": 0.6964,
+      "precision": 0.6379,
+      "recall": 0.6599,
+      "f1_score": 0.6487,
+      "timestamp": 1755592128.0119734
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_90",
+      "attack_params": {
+        "name": "scale_down_90",
+        "factor": 0.9
+      },
+      "detection_rate": 0.6858,
+      "precision": 0.6174,
+      "recall": 0.6424,
+      "f1_score": 0.6296,
+      "timestamp": 1755592128.0621142
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "scaling",
+      "attack_name": "scale_up_110",
+      "attack_params": {
+        "name": "scale_up_110",
+        "factor": 1.1
+      },
+      "detection_rate": 0.7195,
+      "precision": 0.7099,
+      "recall": 0.656,
+      "f1_score": 0.6819,
+      "timestamp": 1755592128.1122625
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "cropping",
+      "attack_name": "crop_5",
+      "attack_params": {
+        "name": "crop_5",
+        "percentage": 0.05
+      },
+      "detection_rate": 0.461,
+      "precision": 0.4373,
+      "recall": 0.4343,
+      "f1_score": 0.4358,
+      "timestamp": 1755592128.162423
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "cropping",
+      "attack_name": "crop_10",
+      "attack_params": {
+        "name": "crop_10",
+        "percentage": 0.1
+      },
+      "detection_rate": 0.545,
+      "precision": 0.4963,
+      "recall": 0.5172,
+      "f1_score": 0.5065,
+      "timestamp": 1755592128.2125223
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "attack_category": "cropping",
+      "attack_name": "crop_15",
+      "attack_params": {
+        "name": "crop_15",
+        "percentage": 0.15
+      },
+      "detection_rate": 0.6083,
+      "precision": 0.5764,
+      "recall": 0.5384,
+      "f1_score": 0.5568,
+      "timestamp": 1755592128.262679
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "blur",
+      "attack_name": "blur_weak",
+      "attack_params": {
+        "name": "blur_weak",
+        "sigma": 1.0
+      },
+      "detection_rate": 0.7795,
+      "precision": 0.7788,
+      "recall": 0.7281,
+      "f1_score": 0.7526,
+      "timestamp": 1755592128.4137015
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "blur",
+      "attack_name": "blur_medium",
+      "attack_params": {
+        "name": "blur_medium",
+        "sigma": 2.0
+      },
+      "detection_rate": 0.7315,
+      "precision": 0.7283,
+      "recall": 0.6937,
+      "f1_score": 0.7106,
+      "timestamp": 1755592128.464163
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "blur",
+      "attack_name": "blur_strong",
+      "attack_params": {
+        "name": "blur_strong",
+        "sigma": 3.0
+      },
+      "detection_rate": 0.7886,
+      "precision": 0.7136,
+      "recall": 0.6852,
+      "f1_score": 0.6991,
+      "timestamp": 1755592128.5146015
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_high",
+      "attack_params": {
+        "name": "jpeg_high",
+        "quality": 90
+      },
+      "detection_rate": 0.7344,
+      "precision": 0.7327,
+      "recall": 0.6458,
+      "f1_score": 0.6865,
+      "timestamp": 1755592128.5651135
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_medium",
+      "attack_params": {
+        "name": "jpeg_medium",
+        "quality": 50
+      },
+      "detection_rate": 0.7647,
+      "precision": 0.7435,
+      "recall": 0.6592,
+      "f1_score": 0.6988,
+      "timestamp": 1755592128.6154056
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_low",
+      "attack_params": {
+        "name": "jpeg_low",
+        "quality": 30
+      },
+      "detection_rate": 0.6623,
+      "precision": 0.6621,
+      "recall": 0.5995,
+      "f1_score": 0.6292,
+      "timestamp": 1755592128.6658127
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "noise",
+      "attack_name": "noise_weak",
+      "attack_params": {
+        "name": "noise_weak",
+        "strength": 0.1
+      },
+      "detection_rate": 0.7156,
+      "precision": 0.6921,
+      "recall": 0.6594,
+      "f1_score": 0.6754,
+      "timestamp": 1755592128.7162294
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "noise",
+      "attack_name": "noise_medium",
+      "attack_params": {
+        "name": "noise_medium",
+        "strength": 0.2
+      },
+      "detection_rate": 0.5639,
+      "precision": 0.5317,
+      "recall": 0.5134,
+      "f1_score": 0.5224,
+      "timestamp": 1755592128.766767
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "noise",
+      "attack_name": "noise_strong",
+      "attack_params": {
+        "name": "noise_strong",
+        "strength": 0.3
+      },
+      "detection_rate": 0.7225,
+      "precision": 0.6889,
+      "recall": 0.6314,
+      "f1_score": 0.6589,
+      "timestamp": 1755592128.8171458
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "rotation",
+      "attack_name": "rotation_5",
+      "attack_params": {
+        "name": "rotation_5",
+        "angle": 5
+      },
+      "detection_rate": 0.4842,
+      "precision": 0.4627,
+      "recall": 0.4392,
+      "f1_score": 0.4506,
+      "timestamp": 1755592128.8674026
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "rotation",
+      "attack_name": "rotation_10",
+      "attack_params": {
+        "name": "rotation_10",
+        "angle": 10
+      },
+      "detection_rate": 0.526,
+      "precision": 0.4782,
+      "recall": 0.485,
+      "f1_score": 0.4815,
+      "timestamp": 1755592128.917864
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "rotation",
+      "attack_name": "rotation_15",
+      "attack_params": {
+        "name": "rotation_15",
+        "angle": 15
+      },
+      "detection_rate": 0.714,
+      "precision": 0.7082,
+      "recall": 0.614,
+      "f1_score": 0.6577,
+      "timestamp": 1755592128.9683058
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_80",
+      "attack_params": {
+        "name": "scale_down_80",
+        "factor": 0.8
+      },
+      "detection_rate": 0.6625,
+      "precision": 0.6419,
+      "recall": 0.5745,
+      "f1_score": 0.6063,
+      "timestamp": 1755592129.0187128
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_90",
+      "attack_params": {
+        "name": "scale_down_90",
+        "factor": 0.9
+      },
+      "detection_rate": 0.6666,
+      "precision": 0.6116,
+      "recall": 0.5921,
+      "f1_score": 0.6017,
+      "timestamp": 1755592129.069178
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "scaling",
+      "attack_name": "scale_up_110",
+      "attack_params": {
+        "name": "scale_up_110",
+        "factor": 1.1
+      },
+      "detection_rate": 0.5896,
+      "precision": 0.5387,
+      "recall": 0.5237,
+      "f1_score": 0.5311,
+      "timestamp": 1755592129.1197267
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "cropping",
+      "attack_name": "crop_5",
+      "attack_params": {
+        "name": "crop_5",
+        "percentage": 0.05
+      },
+      "detection_rate": 0.5632,
+      "precision": 0.5577,
+      "recall": 0.5032,
+      "f1_score": 0.529,
+      "timestamp": 1755592129.1702275
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "cropping",
+      "attack_name": "crop_10",
+      "attack_params": {
+        "name": "crop_10",
+        "percentage": 0.1
+      },
+      "detection_rate": 0.584,
+      "precision": 0.5575,
+      "recall": 0.542,
+      "f1_score": 0.5497,
+      "timestamp": 1755592129.2204797
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "attack_category": "cropping",
+      "attack_name": "crop_15",
+      "attack_params": {
+        "name": "crop_15",
+        "percentage": 0.15
+      },
+      "detection_rate": 0.4511,
+      "precision": 0.4288,
+      "recall": 0.4086,
+      "f1_score": 0.4184,
+      "timestamp": 1755592129.270883
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "blur",
+      "attack_name": "blur_weak",
+      "attack_params": {
+        "name": "blur_weak",
+        "sigma": 1.0
+      },
+      "detection_rate": 0.7471,
+      "precision": 0.6873,
+      "recall": 0.6389,
+      "f1_score": 0.6622,
+      "timestamp": 1755592129.4218466
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "blur",
+      "attack_name": "blur_medium",
+      "attack_params": {
+        "name": "blur_medium",
+        "sigma": 2.0
+      },
+      "detection_rate": 0.7635,
+      "precision": 0.717,
+      "recall": 0.6756,
+      "f1_score": 0.6957,
+      "timestamp": 1755592129.472312
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "blur",
+      "attack_name": "blur_strong",
+      "attack_params": {
+        "name": "blur_strong",
+        "sigma": 3.0
+      },
+      "detection_rate": 0.7062,
+      "precision": 0.6805,
+      "recall": 0.6089,
+      "f1_score": 0.6427,
+      "timestamp": 1755592129.5227847
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_high",
+      "attack_params": {
+        "name": "jpeg_high",
+        "quality": 90
+      },
+      "detection_rate": 0.6253,
+      "precision": 0.5686,
+      "recall": 0.5927,
+      "f1_score": 0.5804,
+      "timestamp": 1755592129.5732212
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_medium",
+      "attack_params": {
+        "name": "jpeg_medium",
+        "quality": 50
+      },
+      "detection_rate": 0.6401,
+      "precision": 0.584,
+      "recall": 0.5562,
+      "f1_score": 0.5698,
+      "timestamp": 1755592129.6235743
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_low",
+      "attack_params": {
+        "name": "jpeg_low",
+        "quality": 30
+      },
+      "detection_rate": 0.7713,
+      "precision": 0.702,
+      "recall": 0.6986,
+      "f1_score": 0.7003,
+      "timestamp": 1755592129.674016
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "noise",
+      "attack_name": "noise_weak",
+      "attack_params": {
+        "name": "noise_weak",
+        "strength": 0.1
+      },
+      "detection_rate": 0.7218,
+      "precision": 0.6905,
+      "recall": 0.6355,
+      "f1_score": 0.6619,
+      "timestamp": 1755592129.7245762
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "noise",
+      "attack_name": "noise_medium",
+      "attack_params": {
+        "name": "noise_medium",
+        "strength": 0.2
+      },
+      "detection_rate": 0.6536,
+      "precision": 0.6282,
+      "recall": 0.5717,
+      "f1_score": 0.5986,
+      "timestamp": 1755592129.775157
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "noise",
+      "attack_name": "noise_strong",
+      "attack_params": {
+        "name": "noise_strong",
+        "strength": 0.3
+      },
+      "detection_rate": 0.7208,
+      "precision": 0.6938,
+      "recall": 0.6326,
+      "f1_score": 0.6618,
+      "timestamp": 1755592129.8253586
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "rotation",
+      "attack_name": "rotation_5",
+      "attack_params": {
+        "name": "rotation_5",
+        "angle": 5
+      },
+      "detection_rate": 0.7057,
+      "precision": 0.6427,
+      "recall": 0.6459,
+      "f1_score": 0.6443,
+      "timestamp": 1755592129.8757398
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "rotation",
+      "attack_name": "rotation_10",
+      "attack_params": {
+        "name": "rotation_10",
+        "angle": 10
+      },
+      "detection_rate": 0.6976,
+      "precision": 0.6474,
+      "recall": 0.6276,
+      "f1_score": 0.6373,
+      "timestamp": 1755592129.9262779
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "rotation",
+      "attack_name": "rotation_15",
+      "attack_params": {
+        "name": "rotation_15",
+        "angle": 15
+      },
+      "detection_rate": 0.6225,
+      "precision": 0.586,
+      "recall": 0.5301,
+      "f1_score": 0.5567,
+      "timestamp": 1755592129.9764583
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_80",
+      "attack_params": {
+        "name": "scale_down_80",
+        "factor": 0.8
+      },
+      "detection_rate": 0.6364,
+      "precision": 0.6322,
+      "recall": 0.6043,
+      "f1_score": 0.6179,
+      "timestamp": 1755592130.0270169
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_90",
+      "attack_params": {
+        "name": "scale_down_90",
+        "factor": 0.9
+      },
+      "detection_rate": 0.5767,
+      "precision": 0.5497,
+      "recall": 0.5219,
+      "f1_score": 0.5355,
+      "timestamp": 1755592130.0775936
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "scaling",
+      "attack_name": "scale_up_110",
+      "attack_params": {
+        "name": "scale_up_110",
+        "factor": 1.1
+      },
+      "detection_rate": 0.5553,
+      "precision": 0.5083,
+      "recall": 0.4979,
+      "f1_score": 0.503,
+      "timestamp": 1755592130.1281946
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "cropping",
+      "attack_name": "crop_5",
+      "attack_params": {
+        "name": "crop_5",
+        "percentage": 0.05
+      },
+      "detection_rate": 0.6165,
+      "precision": 0.6041,
+      "recall": 0.5455,
+      "f1_score": 0.5733,
+      "timestamp": 1755592130.1787562
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "cropping",
+      "attack_name": "crop_10",
+      "attack_params": {
+        "name": "crop_10",
+        "percentage": 0.1
+      },
+      "detection_rate": 0.5379,
+      "precision": 0.5337,
+      "recall": 0.4667,
+      "f1_score": 0.498,
+      "timestamp": 1755592130.229395
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "attack_category": "cropping",
+      "attack_name": "crop_15",
+      "attack_params": {
+        "name": "crop_15",
+        "percentage": 0.15
+      },
+      "detection_rate": 0.6255,
+      "precision": 0.5665,
+      "recall": 0.5668,
+      "f1_score": 0.5666,
+      "timestamp": 1755592130.279998
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "blur",
+      "attack_name": "blur_weak",
+      "attack_params": {
+        "name": "blur_weak",
+        "sigma": 1.0
+      },
+      "detection_rate": 0.7331,
+      "precision": 0.6784,
+      "recall": 0.6607,
+      "f1_score": 0.6694,
+      "timestamp": 1755592130.4314747
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "blur",
+      "attack_name": "blur_medium",
+      "attack_params": {
+        "name": "blur_medium",
+        "sigma": 2.0
+      },
+      "detection_rate": 0.7194,
+      "precision": 0.6788,
+      "recall": 0.6631,
+      "f1_score": 0.6709,
+      "timestamp": 1755592130.4820428
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "blur",
+      "attack_name": "blur_strong",
+      "attack_params": {
+        "name": "blur_strong",
+        "sigma": 3.0
+      },
+      "detection_rate": 0.7437,
+      "precision": 0.7156,
+      "recall": 0.7014,
+      "f1_score": 0.7085,
+      "timestamp": 1755592130.532466
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_high",
+      "attack_params": {
+        "name": "jpeg_high",
+        "quality": 90
+      },
+      "detection_rate": 0.7435,
+      "precision": 0.6725,
+      "recall": 0.6576,
+      "f1_score": 0.665,
+      "timestamp": 1755592130.58305
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_medium",
+      "attack_params": {
+        "name": "jpeg_medium",
+        "quality": 50
+      },
+      "detection_rate": 0.6555,
+      "precision": 0.6218,
+      "recall": 0.6176,
+      "f1_score": 0.6197,
+      "timestamp": 1755592130.63338
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "jpeg",
+      "attack_name": "jpeg_low",
+      "attack_params": {
+        "name": "jpeg_low",
+        "quality": 30
+      },
+      "detection_rate": 0.6857,
+      "precision": 0.6713,
+      "recall": 0.6045,
+      "f1_score": 0.6362,
+      "timestamp": 1755592130.6838913
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "noise",
+      "attack_name": "noise_weak",
+      "attack_params": {
+        "name": "noise_weak",
+        "strength": 0.1
+      },
+      "detection_rate": 0.719,
+      "precision": 0.6506,
+      "recall": 0.6413,
+      "f1_score": 0.6459,
+      "timestamp": 1755592130.7343395
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "noise",
+      "attack_name": "noise_medium",
+      "attack_params": {
+        "name": "noise_medium",
+        "strength": 0.2
+      },
+      "detection_rate": 0.5797,
+      "precision": 0.5275,
+      "recall": 0.5353,
+      "f1_score": 0.5314,
+      "timestamp": 1755592130.7847147
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "noise",
+      "attack_name": "noise_strong",
+      "attack_params": {
+        "name": "noise_strong",
+        "strength": 0.3
+      },
+      "detection_rate": 0.6517,
+      "precision": 0.5877,
+      "recall": 0.588,
+      "f1_score": 0.5879,
+      "timestamp": 1755592130.8350964
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "rotation",
+      "attack_name": "rotation_5",
+      "attack_params": {
+        "name": "rotation_5",
+        "angle": 5
+      },
+      "detection_rate": 0.6963,
+      "precision": 0.6506,
+      "recall": 0.6099,
+      "f1_score": 0.6296,
+      "timestamp": 1755592130.885516
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "rotation",
+      "attack_name": "rotation_10",
+      "attack_params": {
+        "name": "rotation_10",
+        "angle": 10
+      },
+      "detection_rate": 0.673,
+      "precision": 0.6445,
+      "recall": 0.6303,
+      "f1_score": 0.6373,
+      "timestamp": 1755592130.9360294
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "rotation",
+      "attack_name": "rotation_15",
+      "attack_params": {
+        "name": "rotation_15",
+        "angle": 15
+      },
+      "detection_rate": 0.5312,
+      "precision": 0.4912,
+      "recall": 0.4663,
+      "f1_score": 0.4784,
+      "timestamp": 1755592130.9864814
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_80",
+      "attack_params": {
+        "name": "scale_down_80",
+        "factor": 0.8
+      },
+      "detection_rate": 0.5528,
+      "precision": 0.5191,
+      "recall": 0.4816,
+      "f1_score": 0.4997,
+      "timestamp": 1755592131.036914
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "scaling",
+      "attack_name": "scale_down_90",
+      "attack_params": {
+        "name": "scale_down_90",
+        "factor": 0.9
+      },
+      "detection_rate": 0.742,
+      "precision": 0.6813,
+      "recall": 0.6585,
+      "f1_score": 0.6697,
+      "timestamp": 1755592131.0875
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "scaling",
+      "attack_name": "scale_up_110",
+      "attack_params": {
+        "name": "scale_up_110",
+        "factor": 1.1
+      },
+      "detection_rate": 0.6804,
+      "precision": 0.6709,
+      "recall": 0.6363,
+      "f1_score": 0.6531,
+      "timestamp": 1755592131.1380336
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "cropping",
+      "attack_name": "crop_5",
+      "attack_params": {
+        "name": "crop_5",
+        "percentage": 0.05
+      },
+      "detection_rate": 0.423,
+      "precision": 0.3891,
+      "recall": 0.3656,
+      "f1_score": 0.377,
+      "timestamp": 1755592131.1885154
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "cropping",
+      "attack_name": "crop_10",
+      "attack_params": {
+        "name": "crop_10",
+        "percentage": 0.1
+      },
+      "detection_rate": 0.5268,
+      "precision": 0.5111,
+      "recall": 0.4956,
+      "f1_score": 0.5032,
+      "timestamp": 1755592131.239005
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "attack_category": "cropping",
+      "attack_name": "crop_15",
+      "attack_params": {
+        "name": "crop_15",
+        "percentage": 0.15
+      },
+      "detection_rate": 0.6501,
+      "precision": 0.6397,
+      "recall": 0.6015,
+      "f1_score": 0.62,
+      "timestamp": 1755592131.2895317
+    }
+  ],
+  "summary": {
+    "overall": {
+      "total_tests": 90,
+      "total_prompts": 5,
+      "total_attacks": 18,
+      "avg_detection_rate": 0.6508544444444445,
+      "avg_precision": 0.6159944444444445,
+      "avg_recall": 0.5846111111111112,
+      "avg_f1_score": 0.59958
+    },
+    "by_category": {
+      "blur": {
+        "count": 15,
+        "avg_detection_rate": 0.7526333333333334,
+        "avg_precision": 0.7130466666666667,
+        "avg_recall": 0.6767733333333332,
+        "avg_f1_score": 0.6943066666666666
+      },
+      "jpeg": {
+        "count": 15,
+        "avg_detection_rate": 0.7015600000000002,
+        "avg_precision": 0.6634133333333333,
+        "avg_recall": 0.6289599999999999,
+        "avg_f1_score": 0.64524
+      },
+      "noise": {
+        "count": 15,
+        "avg_detection_rate": 0.6763266666666667,
+        "avg_precision": 0.6423666666666666,
+        "avg_recall": 0.60402,
+        "avg_f1_score": 0.6223733333333333
+      },
+      "rotation": {
+        "count": 15,
+        "avg_detection_rate": 0.6022133333333333,
+        "avg_precision": 0.5646933333333333,
+        "avg_recall": 0.5412,
+        "avg_f1_score": 0.5523666666666667
+      },
+      "scaling": {
+        "count": 15,
+        "avg_detection_rate": 0.6454799999999999,
+        "avg_precision": 0.6100266666666666,
+        "avg_recall": 0.5810333333333334,
+        "avg_f1_score": 0.5947733333333333
+      },
+      "cropping": {
+        "count": 15,
+        "avg_detection_rate": 0.5269133333333333,
+        "avg_precision": 0.50242,
+        "avg_recall": 0.4756799999999999,
+        "avg_f1_score": 0.48841999999999997
+      }
+    },
+    "metadata": {
+      "framework": "Minimal ROBIN Testing",
+      "python_version": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+      "timestamp": 1755592131.292812,
+      "note": "Simulated results for framework demonstration"
+    }
+  }
+}

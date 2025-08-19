@@ -1,0 +1,49 @@
+{
+  "total_tests": 150,
+  "watermarked_tests": 75,
+  "clean_tests": 75,
+  "watermarked_performance": {
+    "avg_detection_rate": 0.049999999999999926,
+    "avg_f1_score": 0.04396000000000001,
+    "avg_attribution_accuracy": 0.2022413333333333,
+    "correct_detections": 0,
+    "correct_attributions": 0
+  },
+  "clean_performance": {
+    "avg_detection_rate": 0.049999999999999926,
+    "false_positive_rate": 0.0,
+    "false_positives": 0
+  },
+  "by_attack_category": {
+    "jpeg": {
+      "count": 15,
+      "avg_f1_score": 0.04371333333333334,
+      "avg_detection_rate": 0.05000000000000001,
+      "avg_attribution_accuracy": 0.2282933333333333
+    },
+    "rotation": {
+      "count": 15,
+      "avg_f1_score": 0.044073333333333325,
+      "avg_detection_rate": 0.05000000000000001,
+      "avg_attribution_accuracy": 0.18300666666666665
+    },
+    "noise": {
+      "count": 15,
+      "avg_f1_score": 0.04371333333333334,
+      "avg_detection_rate": 0.05000000000000001,
+      "avg_attribution_accuracy": 0.21252666666666667
+    },
+    "scaling": {
+      "count": 15,
+      "avg_f1_score": 0.044106666666666655,
+      "avg_detection_rate": 0.05000000000000001,
+      "avg_attribution_accuracy": 0.21747333333333335
+    },
+    "blur": {
+      "count": 15,
+      "avg_f1_score": 0.044193333333333334,
+      "avg_detection_rate": 0.05000000000000001,
+      "avg_attribution_accuracy": 0.16990666666666668
+    }
+  }
+}

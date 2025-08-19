@@ -1,0 +1,1010 @@
+{
+  "clean": {
+    "attack_config": {
+      "type": "none",
+      "intensity": "none"
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.45025837803259494,
+    "avg_time": 0.019664123323228623,
+    "intensty": "none"
+  },
+  "blur_mild": {
+    "attack_config": {
+      "type": "blur",
+      "intensity": "mild",
+      "params": {
+        "kernel_size": 3,
+        "sigma": 0.5
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4508739207664298,
+    "avg_time": 0.019370704227023656,
+    "intensty": "mild"
+  },
+  "blur_moderate": {
+    "attack_config": {
+      "type": "blur",
+      "intensity": "moderate",
+      "params": {
+        "kernel_size": 5,
+        "sigma": 1.0
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4535841243755486,
+    "avg_time": 0.019213533401489256,
+    "intensty": "moderate"
+  },
+  "blur_strong": {
+    "attack_config": {
+      "type": "blur",
+      "intensity": "strong",
+      "params": {
+        "kernel_size": 7,
+        "sigma": 1.5
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 0.9666666666666666,
+      "f1_score_micro": 0.9743589743589743,
+      "precision_macro": 1.0,
+      "recall_macro": 0.95
+    },
+    "attribution_accuracy": 0.95,
+    "correct_attributions": 19,
+    "total_attributed": 19,
+    "avg_confidence": 0.4681954186409712,
+    "avg_time": 0.01930292977227105,
+    "intensty": "strong"
+  },
+  "jpeg_mild": {
+    "attack_config": {
+      "type": "jpeg",
+      "intensity": "mild",
+      "params": {
+        "quality": 80
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4520076983090904,
+    "avg_time": 0.023537842432657878,
+    "intensty": "mild"
+  },
+  "jpeg_moderate": {
+    "attack_config": {
+      "type": "jpeg",
+      "intensity": "moderate",
+      "params": {
+        "quality": 60
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.45184210588534673,
+    "avg_time": 0.023757743835449218,
+    "intensty": "moderate"
+  },
+  "jpeg_strong": {
+    "attack_config": {
+      "type": "jpeg",
+      "intensity": "strong",
+      "params": {
+        "quality": 40
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.45534121573178304,
+    "avg_time": 0.023533561494615343,
+    "intensty": "strong"
+  },
+  "jpeg_extreme": {
+    "attack_config": {
+      "type": "jpeg",
+      "intensity": "extreme",
+      "params": {
+        "quality": 20
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4691820019649135,
+    "avg_time": 0.02317366600036621,
+    "intensty": "extreme"
+  },
+  "rotation_mild": {
+    "attack_config": {
+      "type": "rotation",
+      "intensity": "mild",
+      "params": {
+        "angle_degrees": 5
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.455261796940532,
+    "avg_time": 0.2551666895548503,
+    "intensty": "mild"
+  },
+  "rotation_moderate": {
+    "attack_config": {
+      "type": "rotation",
+      "intensity": "moderate",
+      "params": {
+        "angle_degrees": 10
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.45508356305460135,
+    "avg_time": 0.25775354703267417,
+    "intensty": "moderate"
+  },
+  "rotation_strong": {
+    "attack_config": {
+      "type": "rotation",
+      "intensity": "strong",
+      "params": {
+        "angle_degrees": 15
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4537994305706686,
+    "avg_time": 0.2601706345876058,
+    "intensty": "strong"
+  },
+  "rotation_extreme": {
+    "attack_config": {
+      "type": "rotation",
+      "intensity": "extreme",
+      "params": {
+        "angle_degrees": 30
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4523666993611389,
+    "avg_time": 0.26158420774671765,
+    "intensty": "extreme"
+  },
+  "noise_mild": {
+    "attack_config": {
+      "type": "awgn",
+      "intensity": "mild",
+      "params": {
+        "noise_std": 0.02
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4502336165660785,
+    "avg_time": 0.019984838697645398,
+    "intensty": "mild"
+  },
+  "noise_moderate": {
+    "attack_config": {
+      "type": "awgn",
+      "intensity": "moderate",
+      "params": {
+        "noise_std": 0.03
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4500916111076044,
+    "avg_time": 0.020463652080959745,
+    "intensty": "moderate"
+  },
+  "noise_strong": {
+    "attack_config": {
+      "type": "awgn",
+      "intensity": "strong",
+      "params": {
+        "noise_std": 0.05
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4501826512006422,
+    "avg_time": 0.020015022489759657,
+    "intensty": "strong"
+  },
+  "noise_extreme": {
+    "attack_config": {
+      "type": "awgn",
+      "intensity": "extreme",
+      "params": {
+        "noise_std": 0.08
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.45044037140905857,
+    "avg_time": 0.020082049899631076,
+    "intensty": "extreme"
+  },
+  "scaling_mild": {
+    "attack_config": {
+      "type": "scaling",
+      "intensity": "mild",
+      "params": {
+        "scale_factor": 0.9
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.45079972356971765,
+    "avg_time": 0.020025300979614257,
+    "intensty": "mild"
+  },
+  "scaling_moderate": {
+    "attack_config": {
+      "type": "scaling",
+      "intensity": "moderate",
+      "params": {
+        "scale_factor": 0.8
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4507432747218344,
+    "avg_time": 0.020148113038804795,
+    "intensty": "moderate"
+  },
+  "scaling_strong": {
+    "attack_config": {
+      "type": "scaling",
+      "intensity": "strong",
+      "params": {
+        "scale_factor": 0.7
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.45138909367637503,
+    "avg_time": 0.020145055982801648,
+    "intensty": "strong"
+  },
+  "cropping_mild": {
+    "attack_config": {
+      "type": "cropping",
+      "intensity": "mild",
+      "params": {
+        "crop_ratio": 0.9
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 0.5,
+      "f1_score_micro": 0.6206896551724138,
+      "precision_macro": 0.6,
+      "recall_macro": 0.45
+    },
+    "attribution_accuracy": 0.45,
+    "correct_attributions": 9,
+    "total_attributed": 9,
+    "avg_confidence": 0.44346798790825737,
+    "avg_time": 0.16604139539930557,
+    "intensty": "mild"
+  },
+  "cropping_moderate": {
+    "attack_config": {
+      "type": "cropping",
+      "intensity": "moderate",
+      "params": {
+        "crop_ratio": 0.8
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 0.5666666666666667,
+      "f1_score_micro": 0.6666666666666666,
+      "precision_macro": 0.7,
+      "recall_macro": 0.5
+    },
+    "attribution_accuracy": 0.5,
+    "correct_attributions": 10,
+    "total_attributed": 10,
+    "avg_confidence": 0.43440153267648485,
+    "avg_time": 0.1722598605685764,
+    "intensty": "moderate"
+  },
+  "cropping_strong": {
+    "attack_config": {
+      "type": "cropping",
+      "intensity": "strong",
+      "params": {
+        "crop_ratio": 0.7
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 0.36666666666666664,
+      "f1_score_micro": 0.46153846153846156,
+      "precision_macro": 0.5,
+      "recall_macro": 0.3
+    },
+    "attribution_accuracy": 0.3,
+    "correct_attributions": 6,
+    "total_attributed": 6,
+    "avg_confidence": 0.4265121734804577,
+    "avg_time": 0.19006173345777724,
+    "intensty": "strong"
+  },
+  "cropping_extreme": {
+    "attack_config": {
+      "type": "cropping",
+      "intensity": "extreme",
+      "params": {
+        "crop_ratio": 0.6
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 0.7096774193548387,
+      "precision": 1.0,
+      "recall": 0.55
+    },
+    "true_positives": 11,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 9,
+    "attribution_metrics": {
+      "f1_score_macro": 0.0,
+      "f1_score_micro": 0.0,
+      "precision_macro": 0.0,
+      "recall_macro": 0.0
+    },
+    "attribution_accuracy": 0.0,
+    "correct_attributions": 0,
+    "total_attributed": 0,
+    "avg_confidence": 0.21354497123332253,
+    "avg_time": 0.27859290440877277,
+    "intensty": "extreme"
+  },
+  "sharpening_mild": {
+    "attack_config": {
+      "type": "sharpening",
+      "intensity": "mild",
+      "params": {
+        "strength": 0.5
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.44868242412081194,
+    "avg_time": 0.020320071114434138,
+    "intensty": "mild"
+  },
+  "sharpening_moderate": {
+    "attack_config": {
+      "type": "sharpening",
+      "intensity": "moderate",
+      "params": {
+        "strength": 1.0
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.4484827025845233,
+    "avg_time": 0.020305538177490236,
+    "intensty": "moderate"
+  },
+  "sharpening_strong": {
+    "attack_config": {
+      "type": "sharpening",
+      "intensity": "strong",
+      "params": {
+        "strength": 1.5
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.44846748266265624,
+    "avg_time": 0.02065516577826606,
+    "intensty": "strong"
+  },
+  "combo_mild": {
+    "attack_config": {
+      "type": "preset",
+      "intensity": "mild",
+      "params": {
+        "preset": "mild"
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "true_positives": 20,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 0,
+    "attribution_metrics": {
+      "f1_score_macro": 1.0,
+      "f1_score_micro": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "attribution_accuracy": 1.0,
+    "correct_attributions": 20,
+    "total_attributed": 20,
+    "avg_confidence": 0.45229388659613,
+    "avg_time": 0.023953575558132597,
+    "intensty": "mild"
+  },
+  "combo_moderate": {
+    "attack_config": {
+      "type": "preset",
+      "intensity": "moderate",
+      "params": {
+        "preset": "moderate"
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 0.9743589743589743,
+      "precision": 1.0,
+      "recall": 0.95
+    },
+    "true_positives": 19,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 1,
+    "attribution_metrics": {
+      "f1_score_macro": 0.6,
+      "f1_score_micro": 0.6666666666666666,
+      "precision_macro": 0.8,
+      "recall_macro": 0.5
+    },
+    "attribution_accuracy": 0.5,
+    "correct_attributions": 10,
+    "total_attributed": 10,
+    "avg_confidence": 0.432247554221087,
+    "avg_time": 0.024312766393025716,
+    "intensty": "moderate"
+  },
+  "combo_strong": {
+    "attack_config": {
+      "type": "preset",
+      "intensity": "strong",
+      "params": {
+        "preset": "strong"
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 20,
+    "attribution_metrics": {
+      "f1_score_macro": 0.0,
+      "f1_score_micro": 0.0,
+      "precision_macro": 0.0,
+      "recall_macro": 0.0
+    },
+    "attribution_accuracy": 0.0,
+    "correct_attributions": 0,
+    "total_attributed": 0,
+    "avg_confidence": 0.10126639395279603,
+    "avg_time": 0.02399102846781413,
+    "intensty": "strong"
+  },
+  "combo_extreme": {
+    "attack_config": {
+      "type": "preset",
+      "intensity": "extreme",
+      "params": {
+        "preset": "extreme"
+      }
+    },
+    "sample_size": 45,
+    "total_watermarked": 20,
+    "total_clean": 25,
+    "detection_metrics": {
+      "f1_score": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 25,
+    "false_negatives": 20,
+    "attribution_metrics": {
+      "f1_score_macro": 0.0,
+      "f1_score_micro": 0.0,
+      "precision_macro": 0.0,
+      "recall_macro": 0.0
+    },
+    "attribution_accuracy": 0.0,
+    "correct_attributions": 0,
+    "total_attributed": 0,
+    "avg_confidence": 0.13317630303402742,
+    "avg_time": 0.07330071661207412,
+    "intensty": "extreme"
+  },
+  "benchmark_info": {
+    "timestamp": "2025-08-18T10:50:34.140858",
+    "duration_seconds": 107.66726994514465,
+    "total_images": 50,
+    "balanced_dataset": true,
+    "watermarked_images": 25,
+    "clean_images": 25,
+    "ai_models": 10,
+    "attacks_tested": 30,
+    "model_type": "Ultimate Robust Attribution System",
+    "test_scope": "Balanced Dataset + F1 Metrics + Attack Robustness",
+    "improvements": [
+      "Balanced 50/50 dataset",
+      "F1 score evaluation",
+      "Comprehensive attack suite",
+      "Real-world applicable metrics"
+    ]
+  }
+}

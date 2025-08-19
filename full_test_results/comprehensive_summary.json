@@ -1,0 +1,104 @@
+{
+  "overall": {
+    "total_tests": 180,
+    "total_images": 3,
+    "total_attacks": 60,
+    "avg_detection_rate": 0.6050044444444445,
+    "avg_precision": 0.5603955555555553,
+    "avg_recall": 0.5435322222222223,
+    "avg_f1_score": 0.551552777777778,
+    "avg_attribution_accuracy": 0.7509711111111111
+  },
+  "by_category": {
+    "cropping": {
+      "count": 27,
+      "avg_detection_rate": 0.4669037037037036,
+      "avg_precision": 0.43620740740740754,
+      "avg_recall": 0.4182851851851853,
+      "avg_f1_score": 0.4267296296296296,
+      "avg_attribution_accuracy": 0.6823777777777777
+    },
+    "blur": {
+      "count": 27,
+      "avg_detection_rate": 0.6819962962962965,
+      "avg_precision": 0.6281037037037037,
+      "avg_recall": 0.6100407407407409,
+      "avg_f1_score": 0.6186888888888887,
+      "avg_attribution_accuracy": 0.7908185185185184
+    },
+    "combined": {
+      "count": 9,
+      "avg_detection_rate": 0.5548333333333333,
+      "avg_precision": 0.5114333333333333,
+      "avg_recall": 0.5016777777777778,
+      "avg_f1_score": 0.5062333333333333,
+      "avg_attribution_accuracy": 0.7254777777777778
+    },
+    "noise": {
+      "count": 27,
+      "avg_detection_rate": 0.5829925925925925,
+      "avg_precision": 0.5384185185185184,
+      "avg_recall": 0.5223148148148148,
+      "avg_f1_score": 0.5300555555555555,
+      "avg_attribution_accuracy": 0.7408851851851852
+    },
+    "scaling": {
+      "count": 27,
+      "avg_detection_rate": 0.6205148148148149,
+      "avg_precision": 0.5768777777777778,
+      "avg_recall": 0.5637703703703704,
+      "avg_f1_score": 0.5699518518518519,
+      "avg_attribution_accuracy": 0.7562629629629627
+    },
+    "sharpening": {
+      "count": 9,
+      "avg_detection_rate": 0.7292,
+      "avg_precision": 0.6664222222222222,
+      "avg_recall": 0.653911111111111,
+      "avg_f1_score": 0.6600111111111111,
+      "avg_attribution_accuracy": 0.811911111111111
+    },
+    "rotation": {
+      "count": 27,
+      "avg_detection_rate": 0.5565111111111111,
+      "avg_precision": 0.5159037037037039,
+      "avg_recall": 0.49821111111111116,
+      "avg_f1_score": 0.5066370370370371,
+      "avg_attribution_accuracy": 0.7265814814814816
+    },
+    "jpeg": {
+      "count": 27,
+      "avg_detection_rate": 0.6964333333333335,
+      "avg_precision": 0.6478407407407407,
+      "avg_recall": 0.6257296296296295,
+      "avg_f1_score": 0.6362074074074074,
+      "avg_attribution_accuracy": 0.7970851851851853
+    }
+  },
+  "by_intensity": {
+    "weak": {
+      "count": 57,
+      "avg_detection_rate": 0.7447649122807016,
+      "avg_precision": 0.6899438596491227,
+      "avg_recall": 0.6680052631578947,
+      "avg_f1_score": 0.6784947368421053,
+      "avg_attribution_accuracy": 0.8213122807017544
+    },
+    "medium": {
+      "count": 69,
+      "avg_detection_rate": 0.605676811594203,
+      "avg_precision": 0.5614898550724639,
+      "avg_recall": 0.5463579710144928,
+      "avg_f1_score": 0.5535014492753623,
+      "avg_attribution_accuracy": 0.7513405797101449
+    },
+    "strong": {
+      "count": 54,
+      "avg_detection_rate": 0.45662037037037034,
+      "avg_precision": 0.422251851851852,
+      "avg_recall": 0.40853333333333325,
+      "avg_f1_score": 0.41506851851851856,
+      "avg_attribution_accuracy": 0.6762499999999998
+    }
+  }
+}

@@ -1,0 +1,69 @@
+# ROBIN Watermarking Testing Pipeline Requirements
+# ==================================================
+
+# Core ML/AI packages
+torch==1.13.0
+torchvision==0.14.0
+diffusers==0.11.1
+transformers==4.23.1
+datasets==2.13.2
+
+# Computer Vision and Image Processing
+opencv-python==4.9.0.80
+Pillow==9.5.0
+pytorch-msssim==1.0.0
+
+# Scientific Computing
+numpy==1.21.6
+scipy==1.7.3
+pandas==1.3.5
+scikit-learn==1.0.2
+
+# CLIP and Text Processing
+ftfy==6.1.1
+regex==2023.8.8
+
+# Training and Optimization
+accelerate==0.20.3
+
+# Utilities
+tqdm
+requests==2.31.0
+safetensors==0.4.0
+click==8.1.7
+packaging==23.1
+PyYAML==6.0.1
+
+# Optional - Analysis and Visualization
+jupyter
+matplotlib
+seaborn
+ipywidgets
+
+# Git and Hub utilities
+gitpython==3.1.32
+huggingface-hub==0.16.4
+
+# Other dependencies from original package.txt
+protobuf==4.24.0
+psutil==5.9.5
+pyarrow==12.0.1
+python-dateutil==2.8.2
+pytz==2023.3.post1
+six==1.16.0
+joblib==1.3.2
+multiprocess==0.70.14
+dill==0.3.6
+filelock==3.12.2
+fsspec==2023.1.0
+idna==3.4
+charset-normalizer==3.2.0
+aiohttp==3.8.6
+aiosignal==1.3.1
+async-timeout==4.0.3
+asynctest==0.13.0
+attrs==23.1.0
+appdirs==1.4.4
+frozenlist==1.3.3
+multidict==6.0.4
+pathtools==0.1.2

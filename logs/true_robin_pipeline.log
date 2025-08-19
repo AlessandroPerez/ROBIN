@@ -1,0 +1,44 @@
+2025-08-19 11:22:35,783 - INFO - Initialized True ROBIN Tester with 5 images
+2025-08-19 11:22:35,783 - INFO - Using realistic image generation and ROBIN-style watermarking
+2025-08-19 11:22:35,783 - INFO - Starting True ROBIN watermark testing
+2025-08-19 11:22:35,784 - INFO - Loaded 5 prompts for testing
+2025-08-19 11:22:35,784 - INFO - Running 90 tests with realistic images
+2025-08-19 11:22:35,784 - INFO - Processing image 1/5: A serene mountain landscape at sunset...
+2025-08-19 11:22:38,018 - INFO - Progress: 10/90 (11.1%) - ETA: 17.9s
+2025-08-19 11:22:39,871 - INFO - Processing image 2/5: Autumn forest with golden leaves...
+2025-08-19 11:22:40,639 - INFO - Progress: 20/90 (22.2%) - ETA: 17.0s
+2025-08-19 11:22:43,041 - INFO - Progress: 30/90 (33.3%) - ETA: 14.5s
+2025-08-19 11:22:44,511 - INFO - Processing image 3/5: Ocean waves on a sandy beach...
+2025-08-19 11:22:45,777 - INFO - Progress: 40/90 (44.4%) - ETA: 12.5s
+2025-08-19 11:22:48,154 - INFO - Progress: 50/90 (55.6%) - ETA: 9.9s
+2025-08-19 11:22:49,168 - INFO - Processing image 4/5: Field of sunflowers under blue sky...
+2025-08-19 11:22:50,895 - INFO - Progress: 60/90 (66.7%) - ETA: 7.6s
+2025-08-19 11:22:53,310 - INFO - Progress: 70/90 (77.8%) - ETA: 5.0s
+2025-08-19 11:22:53,832 - INFO - Processing image 5/5: Misty morning in a pine forest...
+2025-08-19 11:22:56,239 - INFO - Progress: 80/90 (88.9%) - ETA: 2.6s
+2025-08-19 11:22:58,768 - INFO - Progress: 90/90 (100.0%) - ETA: 0.0s
+2025-08-19 11:22:58,768 - INFO - Completed all tests in 22.98 seconds
+2025-08-19 11:22:58,769 - INFO - Saving True ROBIN test results
+2025-08-19 11:22:58,769 - ERROR - Error: Object of type float32 is not JSON serializable
+2025-08-19 11:24:11,645 - INFO - Initialized True ROBIN Tester with 5 images
+2025-08-19 11:24:11,645 - INFO - Using realistic image generation and ROBIN-style watermarking
+2025-08-19 11:24:11,645 - INFO - Starting True ROBIN watermark testing
+2025-08-19 11:24:11,646 - INFO - Loaded 5 prompts for testing
+2025-08-19 11:24:11,646 - INFO - Running 90 tests with realistic images
+2025-08-19 11:24:11,646 - INFO - Processing image 1/5: A serene mountain landscape at sunset...
+2025-08-19 11:24:14,439 - INFO - Progress: 10/90 (11.1%) - ETA: 22.3s
+2025-08-19 11:24:16,350 - INFO - Processing image 2/5: Autumn forest with golden leaves...
+2025-08-19 11:24:17,116 - INFO - Progress: 20/90 (22.2%) - ETA: 19.1s
+2025-08-19 11:24:19,498 - INFO - Progress: 30/90 (33.3%) - ETA: 15.7s
+2025-08-19 11:24:20,965 - INFO - Processing image 3/5: Ocean waves on a sandy beach...
+2025-08-19 11:24:22,221 - INFO - Progress: 40/90 (44.4%) - ETA: 13.2s
+2025-08-19 11:24:24,604 - INFO - Progress: 50/90 (55.6%) - ETA: 10.4s
+2025-08-19 11:24:25,573 - INFO - Processing image 4/5: Field of sunflowers under blue sky...
+2025-08-19 11:24:27,282 - INFO - Progress: 60/90 (66.7%) - ETA: 7.8s
+2025-08-19 11:24:29,692 - INFO - Progress: 70/90 (77.8%) - ETA: 5.2s
+2025-08-19 11:24:30,183 - INFO - Processing image 5/5: Misty morning in a pine forest...
+2025-08-19 11:24:32,419 - INFO - Progress: 80/90 (88.9%) - ETA: 2.6s
+2025-08-19 11:24:34,777 - INFO - Progress: 90/90 (100.0%) - ETA: 0.0s
+2025-08-19 11:24:34,777 - INFO - Completed all tests in 23.13 seconds
+2025-08-19 11:24:34,778 - INFO - Saving True ROBIN test results
+2025-08-19 11:24:34,780 - INFO - Results saved to real_robin_results

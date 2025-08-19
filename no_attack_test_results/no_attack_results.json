@@ -1,0 +1,92 @@
+[
+  {
+    "prompt_id": 0,
+    "prompt": "A beautiful sunset over a mountain lake",
+    "expected_pattern": "ROBIN_WM_000",
+    "watermarked_test": {
+      "detected": true,
+      "detected_pattern": "ROBIN_WM_000",
+      "confidence": 0.07192452278037074,
+      "attribution_correct": true,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0719,
+        "ROBIN_WM_001": 0.0084,
+        "ROBIN_WM_002": 0.0094,
+        "ROBIN_WM_003": 0.0058,
+        "ROBIN_WM_004": 0.0105
+      }
+    },
+    "clean_test": {
+      "detected": false,
+      "detected_pattern": null,
+      "confidence": 0.021394129425108255,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0214,
+        "ROBIN_WM_001": 0.0086,
+        "ROBIN_WM_002": 0.0195,
+        "ROBIN_WM_003": 0.0099,
+        "ROBIN_WM_004": 0.008
+      }
+    }
+  },
+  {
+    "prompt_id": 1,
+    "prompt": "A field of colorful wildflowers in spring",
+    "expected_pattern": "ROBIN_WM_001",
+    "watermarked_test": {
+      "detected": false,
+      "detected_pattern": null,
+      "confidence": 0.03497920628981053,
+      "attribution_correct": true,
+      "all_scores": {
+        "ROBIN_WM_000": 0.023,
+        "ROBIN_WM_001": 0.035,
+        "ROBIN_WM_002": 0.0251,
+        "ROBIN_WM_003": 0.0069,
+        "ROBIN_WM_004": 0.0279
+      }
+    },
+    "clean_test": {
+      "detected": false,
+      "detected_pattern": null,
+      "confidence": 0.03185091252857899,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0137,
+        "ROBIN_WM_001": 0.0136,
+        "ROBIN_WM_002": 0.0319,
+        "ROBIN_WM_003": 0.0081,
+        "ROBIN_WM_004": 0.0253
+      }
+    }
+  },
+  {
+    "prompt_id": 2,
+    "prompt": "A serene forest path with dappled sunlight",
+    "expected_pattern": "ROBIN_WM_002",
+    "watermarked_test": {
+      "detected": true,
+      "detected_pattern": "ROBIN_WM_002",
+      "confidence": 0.05063712087528657,
+      "attribution_correct": true,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0117,
+        "ROBIN_WM_001": 0.0261,
+        "ROBIN_WM_002": 0.0506,
+        "ROBIN_WM_003": 0.0024,
+        "ROBIN_WM_004": 0.0053
+      }
+    },
+    "clean_test": {
+      "detected": false,
+      "detected_pattern": null,
+      "confidence": 0.02917641060428507,
+      "all_scores": {
+        "ROBIN_WM_000": 0.006,
+        "ROBIN_WM_001": 0.0292,
+        "ROBIN_WM_002": 0.02,
+        "ROBIN_WM_003": 0.0069,
+        "ROBIN_WM_004": 0.0007
+      }
+    }
+  }
+]

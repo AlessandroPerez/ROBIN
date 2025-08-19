@@ -1,0 +1,17 @@
+{
+  "total_tests": 13680,
+  "watermarked_tests": 6840,
+  "clean_tests": 6840,
+  "watermarked_performance": {
+    "avg_detection_rate": 0.6307202485380118,
+    "avg_f1_score": 0.598970760233918,
+    "avg_precision": 0.5933913596491228,
+    "avg_recall": 0.6190507748538011,
+    "correct_detections": 5022,
+    "correct_attributions": 3586
+  },
+  "clean_performance": {
+    "avg_detection_rate": 0.46314915204678364,
+    "false_positive_rate": 0.5453216374269005
+  }
+}

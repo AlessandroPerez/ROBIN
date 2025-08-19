@@ -1,0 +1,84 @@
+# ROBIN Testing Pipeline Configuration
+# ===================================
+# 
+# This file contains configuration options for the comprehensive testing pipeline.
+# Modify these values to customize your testing setup.
+
+# MODEL CONFIGURATION
+# -------------------
+MODEL_ID="stabilityai/stable-diffusion-2-1-base"
+# Alternative models:
+# MODEL_ID="runwayml/stable-diffusion-v1-5"  
+# MODEL_ID="/path/to/your/custom/model"
+
+# REFERENCE MODEL FOR CLIP SIMILARITY
+REFERENCE_MODEL="ViT-H-14"
+REFERENCE_MODEL_PRETRAIN="laion2b_s32b_b79k"
+
+# TEST CONFIGURATION
+# ------------------
+NUM_TEST_IMAGES=50              # Total images to test (split evenly between clean and watermarked)
+OUTPUT_DIR="test_results"       # Directory to save results and images
+PROMPTS_FILE="prompts_1000.json"  # File containing test prompts
+
+# GENERATION PARAMETERS
+# ---------------------
+IMAGE_SIZE=512                  # Generated image size (512x512)
+GUIDANCE_SCALE=7.5             # Classifier-free guidance scale
+NUM_INFERENCE_STEPS=50         # Number of denoising steps
+GEN_SEED=0                     # Base seed for reproducible generation
+
+# WATERMARK PARAMETERS
+# --------------------
+WATERMARKING_STEPS=35          # Step at which to inject watermark (0-50)
+W_PATTERN="ring"               # Watermark pattern type (ring, rand)
+W_CHANNEL=3                    # Number of channels for watermark
+W_RADIUS=10                    # Watermark radius for circular patterns
+W_MEASUREMENT="complex_l1_complex"  # Watermark measurement method
+W_INJECTION="complex"          # Watermark injection method
+
+# OPTIONAL: Pre-trained watermark path
+# Set this to use a pre-optimized watermark instead of random generation
+WM_PATH=""                     # Example: "ckpts/optimized_watermark.pth"
+
+# PERFORMANCE OPTIONS
+# -------------------
+# Reduce NUM_TEST_IMAGES for faster testing (minimum recommended: 20)
+# Use GPU for significantly faster processing
+# Pre-optimize watermarks for better detection performance
+
+# ATTACK CONFIGURATION
+# --------------------
+# The pipeline automatically tests all attack types with these intensities:
+#
+# Blur: mild (σ=0.5), moderate (σ=1.0), strong (σ=1.5)
+# JPEG: mild (q=80), moderate (q=60), strong (q=40), extreme (q=20)  
+# Rotation: mild (5°), moderate (10°), strong (15°), extreme (30°)
+# Noise: mild (σ=0.02), moderate (σ=0.03), strong (σ=0.05), extreme (σ=0.08)
+# Scaling: mild (0.9x), moderate (0.8x), strong (0.7x)
+# Cropping: mild (0.9), moderate (0.8), strong (0.7), extreme (0.6)
+# Sharpening: mild (0.5), moderate (1.0), strong (1.5)
+# Combination: mild, moderate, strong, extreme (multiple attacks combined)
+
+# EXPECTED OUTPUTS
+# ----------------
+# After running the pipeline, you will get:
+#
+# test_results/
+# ├── comprehensive_results.json    # Complete metrics matching results.json format
+# └── images/
+#     ├── clean/                   # Clean (non-watermarked) images
+#     ├── watermarked/             # Watermarked images
+#     └── attacked/                # Images after each attack type
+#         ├── blur_mild/
+#         ├── jpeg_strong/
+#         ├── rotation_extreme/
+#         └── ... (30 attack types total)
+
+# USAGE INSTRUCTIONS
+# ------------------
+# 1. Setup environment:    bash setup_environment.sh
+# 2. Activate environment: conda activate robin  
+# 3. Validate setup:       python validate_setup.py
+# 4. Run testing:          bash run_testing.sh
+# 5. Analyze results:      python analyze_results.py

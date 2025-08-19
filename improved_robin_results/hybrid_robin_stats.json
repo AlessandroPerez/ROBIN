@@ -1,0 +1,49 @@
+{
+  "total_tests": 150,
+  "watermarked_tests": 75,
+  "clean_tests": 75,
+  "watermarked_performance": {
+    "avg_detection_rate": 0.34993200000000013,
+    "avg_f1_score": 0.30807333333333325,
+    "avg_attribution_accuracy": 0.2022413333333333,
+    "correct_detections": 0,
+    "correct_attributions": 0
+  },
+  "clean_performance": {
+    "avg_detection_rate": 0.049999999999999926,
+    "false_positive_rate": 0.0,
+    "false_positives": 0
+  },
+  "by_attack_category": {
+    "scaling": {
+      "count": 15,
+      "avg_f1_score": 0.32902,
+      "avg_detection_rate": 0.3709333333333333,
+      "avg_attribution_accuracy": 0.21747333333333335
+    },
+    "noise": {
+      "count": 15,
+      "avg_f1_score": 0.3356333333333333,
+      "avg_detection_rate": 0.38217999999999996,
+      "avg_attribution_accuracy": 0.21252666666666667
+    },
+    "blur": {
+      "count": 15,
+      "avg_f1_score": 0.3089533333333333,
+      "avg_detection_rate": 0.3497466666666667,
+      "avg_attribution_accuracy": 0.16990666666666668
+    },
+    "jpeg": {
+      "count": 15,
+      "avg_f1_score": 0.3118466666666667,
+      "avg_detection_rate": 0.3581466666666666,
+      "avg_attribution_accuracy": 0.2282933333333333
+    },
+    "rotation": {
+      "count": 15,
+      "avg_f1_score": 0.2549133333333333,
+      "avg_detection_rate": 0.2886533333333334,
+      "avg_attribution_accuracy": 0.18300666666666665
+    }
+  }
+}

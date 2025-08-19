@@ -1,0 +1,1973 @@
+{
+  "metadata": {
+    "total_original_images": 10,
+    "total_attacked_images": 210,
+    "images_directory": "images",
+    "attacked_images_directory": "attacked_images",
+    "created_date": "2025-08-19T11:00:24.210217"
+  },
+  "original_images": [
+    {
+      "prompt_id": 0,
+      "prompt": "A serene mountain landscape at sunset",
+      "original_filename": "original_000.png",
+      "watermarked_filename": "watermarked_000.png",
+      "watermark_id": "ROBIN_WM_004"
+    },
+    {
+      "prompt_id": 1,
+      "prompt": "Autumn forest with golden leaves",
+      "original_filename": "original_001.png",
+      "watermarked_filename": "watermarked_001.png",
+      "watermark_id": "ROBIN_WM_002"
+    },
+    {
+      "prompt_id": 2,
+      "prompt": "Ocean waves on a sandy beach",
+      "original_filename": "original_002.png",
+      "watermarked_filename": "watermarked_002.png",
+      "watermark_id": "ROBIN_WM_001"
+    },
+    {
+      "prompt_id": 3,
+      "prompt": "Field of sunflowers under blue sky",
+      "original_filename": "original_003.png",
+      "watermarked_filename": "watermarked_003.png",
+      "watermark_id": "ROBIN_WM_002"
+    },
+    {
+      "prompt_id": 4,
+      "prompt": "Misty morning in a pine forest",
+      "original_filename": "original_004.png",
+      "watermarked_filename": "watermarked_004.png",
+      "watermark_id": "ROBIN_WM_002"
+    },
+    {
+      "prompt_id": 5,
+      "prompt": "Desert dunes under starry night sky",
+      "original_filename": "original_005.png",
+      "watermarked_filename": "watermarked_005.png",
+      "watermark_id": "ROBIN_WM_005"
+    },
+    {
+      "prompt_id": 6,
+      "prompt": "Tropical waterfall in jungle setting",
+      "original_filename": "original_006.png",
+      "watermarked_filename": "watermarked_006.png",
+      "watermark_id": "ROBIN_WM_005"
+    },
+    {
+      "prompt_id": 7,
+      "prompt": "Snow-covered alpine peaks",
+      "original_filename": "original_007.png",
+      "watermarked_filename": "watermarked_007.png",
+      "watermark_id": "ROBIN_WM_003"
+    },
+    {
+      "prompt_id": 8,
+      "prompt": "Cherry blossoms in spring garden",
+      "original_filename": "original_008.png",
+      "watermarked_filename": "watermarked_008.png",
+      "watermark_id": "ROBIN_WM_002"
+    },
+    {
+      "prompt_id": 9,
+      "prompt": "Rocky coastline with lighthouse",
+      "original_filename": "original_009.png",
+      "watermarked_filename": "watermarked_009.png",
+      "watermark_id": "ROBIN_WM_004"
+    }
+  ],
+  "attacked_images": [
+    {
+      "test_id": 1,
+      "prompt_id": 0,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_000_blur_weak.png",
+      "detection_rate": 0.0735,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 2,
+      "prompt_id": 0,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_000_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 3,
+      "prompt_id": 0,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_000_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 4,
+      "prompt_id": 0,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_000_jpeg_80.png",
+      "detection_rate": 0.373,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 5,
+      "prompt_id": 0,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_000_jpeg_50.png",
+      "detection_rate": 0.2076,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 6,
+      "prompt_id": 0,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_000_jpeg_20.png",
+      "detection_rate": 0.0956,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 7,
+      "prompt_id": 0,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_000_noise_weak.png",
+      "detection_rate": 0.2671,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 8,
+      "prompt_id": 0,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_000_noise_medium.png",
+      "detection_rate": 0.1575,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 9,
+      "prompt_id": 0,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_000_noise_strong.png",
+      "detection_rate": 0.112,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 10,
+      "prompt_id": 0,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_000_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 11,
+      "prompt_id": 0,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_000_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 12,
+      "prompt_id": 0,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_000_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 13,
+      "prompt_id": 0,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_000_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 14,
+      "prompt_id": 0,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_000_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 15,
+      "prompt_id": 0,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_000_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 16,
+      "prompt_id": 0,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_000_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 17,
+      "prompt_id": 0,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_000_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 18,
+      "prompt_id": 0,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_000_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 19,
+      "prompt_id": 0,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_000_sharpen_weak.png",
+      "detection_rate": 0.3746,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 20,
+      "prompt_id": 0,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_000_sharpen_medium.png",
+      "detection_rate": 0.4333,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 21,
+      "prompt_id": 0,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_000_sharpen_strong.png",
+      "detection_rate": 0.4211,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 22,
+      "prompt_id": 1,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_001_blur_weak.png",
+      "detection_rate": 0.1105,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 23,
+      "prompt_id": 1,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_001_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 24,
+      "prompt_id": 1,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_001_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 25,
+      "prompt_id": 1,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_001_jpeg_80.png",
+      "detection_rate": 0.3578,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 26,
+      "prompt_id": 1,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_001_jpeg_50.png",
+      "detection_rate": 0.1867,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 27,
+      "prompt_id": 1,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_001_jpeg_20.png",
+      "detection_rate": 0.0994,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 28,
+      "prompt_id": 1,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_001_noise_weak.png",
+      "detection_rate": 0.2574,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 29,
+      "prompt_id": 1,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_001_noise_medium.png",
+      "detection_rate": 0.1311,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 30,
+      "prompt_id": 1,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_001_noise_strong.png",
+      "detection_rate": 0.0873,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 31,
+      "prompt_id": 1,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_001_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 32,
+      "prompt_id": 1,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_001_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 33,
+      "prompt_id": 1,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_001_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 34,
+      "prompt_id": 1,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_001_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 35,
+      "prompt_id": 1,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_001_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 36,
+      "prompt_id": 1,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_001_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 37,
+      "prompt_id": 1,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_001_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 38,
+      "prompt_id": 1,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_001_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 39,
+      "prompt_id": 1,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_001_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 40,
+      "prompt_id": 1,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_001_sharpen_weak.png",
+      "detection_rate": 0.3766,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 41,
+      "prompt_id": 1,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_001_sharpen_medium.png",
+      "detection_rate": 0.3531,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 42,
+      "prompt_id": 1,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_001_sharpen_strong.png",
+      "detection_rate": 0.435,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 43,
+      "prompt_id": 2,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_002_blur_weak.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 44,
+      "prompt_id": 2,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_002_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 45,
+      "prompt_id": 2,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_002_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 46,
+      "prompt_id": 2,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_002_jpeg_80.png",
+      "detection_rate": 0.1855,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 47,
+      "prompt_id": 2,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_002_jpeg_50.png",
+      "detection_rate": 0.1007,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 48,
+      "prompt_id": 2,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_002_jpeg_20.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 49,
+      "prompt_id": 2,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_002_noise_weak.png",
+      "detection_rate": 0.1316,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 50,
+      "prompt_id": 2,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_002_noise_medium.png",
+      "detection_rate": 0.0776,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 51,
+      "prompt_id": 2,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_002_noise_strong.png",
+      "detection_rate": 0.0539,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 52,
+      "prompt_id": 2,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_002_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 53,
+      "prompt_id": 2,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_002_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 54,
+      "prompt_id": 2,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_002_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 55,
+      "prompt_id": 2,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_002_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 56,
+      "prompt_id": 2,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_002_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 57,
+      "prompt_id": 2,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_002_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 58,
+      "prompt_id": 2,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_002_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 59,
+      "prompt_id": 2,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_002_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 60,
+      "prompt_id": 2,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_002_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 61,
+      "prompt_id": 2,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_002_sharpen_weak.png",
+      "detection_rate": 0.202,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 62,
+      "prompt_id": 2,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_002_sharpen_medium.png",
+      "detection_rate": 0.2287,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 63,
+      "prompt_id": 2,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_002_sharpen_strong.png",
+      "detection_rate": 0.2098,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 64,
+      "prompt_id": 3,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_003_blur_weak.png",
+      "detection_rate": 0.0964,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 65,
+      "prompt_id": 3,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_003_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 66,
+      "prompt_id": 3,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_003_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 67,
+      "prompt_id": 3,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_003_jpeg_80.png",
+      "detection_rate": 0.3973,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 68,
+      "prompt_id": 3,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_003_jpeg_50.png",
+      "detection_rate": 0.2587,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 69,
+      "prompt_id": 3,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_003_jpeg_20.png",
+      "detection_rate": 0.1148,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 70,
+      "prompt_id": 3,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_003_noise_weak.png",
+      "detection_rate": 0.2856,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 71,
+      "prompt_id": 3,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_003_noise_medium.png",
+      "detection_rate": 0.1354,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 72,
+      "prompt_id": 3,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_003_noise_strong.png",
+      "detection_rate": 0.0874,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 73,
+      "prompt_id": 3,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_003_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 74,
+      "prompt_id": 3,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_003_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 75,
+      "prompt_id": 3,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_003_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 76,
+      "prompt_id": 3,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_003_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 77,
+      "prompt_id": 3,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_003_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 78,
+      "prompt_id": 3,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_003_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 79,
+      "prompt_id": 3,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_003_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 80,
+      "prompt_id": 3,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_003_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 81,
+      "prompt_id": 3,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_003_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 82,
+      "prompt_id": 3,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_003_sharpen_weak.png",
+      "detection_rate": 0.3807,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 83,
+      "prompt_id": 3,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_003_sharpen_medium.png",
+      "detection_rate": 0.4041,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 84,
+      "prompt_id": 3,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_003_sharpen_strong.png",
+      "detection_rate": 0.4186,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 85,
+      "prompt_id": 4,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_004_blur_weak.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 86,
+      "prompt_id": 4,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_004_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 87,
+      "prompt_id": 4,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_004_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 88,
+      "prompt_id": 4,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_004_jpeg_80.png",
+      "detection_rate": 0.1501,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 89,
+      "prompt_id": 4,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_004_jpeg_50.png",
+      "detection_rate": 0.095,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 90,
+      "prompt_id": 4,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_004_jpeg_20.png",
+      "detection_rate": 0.0585,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 91,
+      "prompt_id": 4,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_004_noise_weak.png",
+      "detection_rate": 0.1582,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 92,
+      "prompt_id": 4,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_004_noise_medium.png",
+      "detection_rate": 0.0755,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 93,
+      "prompt_id": 4,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_004_noise_strong.png",
+      "detection_rate": 0.0572,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 94,
+      "prompt_id": 4,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_004_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 95,
+      "prompt_id": 4,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_004_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 96,
+      "prompt_id": 4,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_004_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 97,
+      "prompt_id": 4,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_004_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 98,
+      "prompt_id": 4,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_004_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 99,
+      "prompt_id": 4,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_004_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 100,
+      "prompt_id": 4,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_004_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 101,
+      "prompt_id": 4,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_004_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 102,
+      "prompt_id": 4,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_004_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 103,
+      "prompt_id": 4,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_004_sharpen_weak.png",
+      "detection_rate": 0.1959,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 104,
+      "prompt_id": 4,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_004_sharpen_medium.png",
+      "detection_rate": 0.2221,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 105,
+      "prompt_id": 4,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_004_sharpen_strong.png",
+      "detection_rate": 0.2404,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 106,
+      "prompt_id": 5,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_005_blur_weak.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 107,
+      "prompt_id": 5,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_005_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 108,
+      "prompt_id": 5,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_005_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 109,
+      "prompt_id": 5,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_005_jpeg_80.png",
+      "detection_rate": 0.2561,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 110,
+      "prompt_id": 5,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_005_jpeg_50.png",
+      "detection_rate": 0.1219,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 111,
+      "prompt_id": 5,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_005_jpeg_20.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 112,
+      "prompt_id": 5,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_005_noise_weak.png",
+      "detection_rate": 0.1775,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 113,
+      "prompt_id": 5,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_005_noise_medium.png",
+      "detection_rate": 0.1097,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 114,
+      "prompt_id": 5,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_005_noise_strong.png",
+      "detection_rate": 0.0587,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 115,
+      "prompt_id": 5,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_005_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 116,
+      "prompt_id": 5,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_005_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 117,
+      "prompt_id": 5,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_005_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 118,
+      "prompt_id": 5,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_005_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 119,
+      "prompt_id": 5,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_005_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 120,
+      "prompt_id": 5,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_005_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 121,
+      "prompt_id": 5,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_005_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 122,
+      "prompt_id": 5,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_005_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 123,
+      "prompt_id": 5,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_005_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 124,
+      "prompt_id": 5,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_005_sharpen_weak.png",
+      "detection_rate": 0.2854,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 125,
+      "prompt_id": 5,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_005_sharpen_medium.png",
+      "detection_rate": 0.3078,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 126,
+      "prompt_id": 5,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_005_sharpen_strong.png",
+      "detection_rate": 0.3145,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 127,
+      "prompt_id": 6,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_006_blur_weak.png",
+      "detection_rate": 0.0796,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 128,
+      "prompt_id": 6,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_006_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 129,
+      "prompt_id": 6,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_006_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 130,
+      "prompt_id": 6,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_006_jpeg_80.png",
+      "detection_rate": 0.3915,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 131,
+      "prompt_id": 6,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_006_jpeg_50.png",
+      "detection_rate": 0.242,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 132,
+      "prompt_id": 6,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_006_jpeg_20.png",
+      "detection_rate": 0.1158,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 133,
+      "prompt_id": 6,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_006_noise_weak.png",
+      "detection_rate": 0.3084,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 134,
+      "prompt_id": 6,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_006_noise_medium.png",
+      "detection_rate": 0.17,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 135,
+      "prompt_id": 6,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_006_noise_strong.png",
+      "detection_rate": 0.1039,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 136,
+      "prompt_id": 6,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_006_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 137,
+      "prompt_id": 6,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_006_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 138,
+      "prompt_id": 6,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_006_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 139,
+      "prompt_id": 6,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_006_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 140,
+      "prompt_id": 6,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_006_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 141,
+      "prompt_id": 6,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_006_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 142,
+      "prompt_id": 6,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_006_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 143,
+      "prompt_id": 6,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_006_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 144,
+      "prompt_id": 6,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_006_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 145,
+      "prompt_id": 6,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_006_sharpen_weak.png",
+      "detection_rate": 0.4206,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 146,
+      "prompt_id": 6,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_006_sharpen_medium.png",
+      "detection_rate": 0.4667,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 147,
+      "prompt_id": 6,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_006_sharpen_strong.png",
+      "detection_rate": 0.446,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 148,
+      "prompt_id": 7,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_007_blur_weak.png",
+      "detection_rate": 0.1241,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 149,
+      "prompt_id": 7,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_007_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 150,
+      "prompt_id": 7,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_007_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 151,
+      "prompt_id": 7,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_007_jpeg_80.png",
+      "detection_rate": 0.534,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 152,
+      "prompt_id": 7,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_007_jpeg_50.png",
+      "detection_rate": 0.2476,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 153,
+      "prompt_id": 7,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_007_jpeg_20.png",
+      "detection_rate": 0.1371,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 154,
+      "prompt_id": 7,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_007_noise_weak.png",
+      "detection_rate": 0.4011,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 155,
+      "prompt_id": 7,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_007_noise_medium.png",
+      "detection_rate": 0.2168,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 156,
+      "prompt_id": 7,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_007_noise_strong.png",
+      "detection_rate": 0.1436,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 157,
+      "prompt_id": 7,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_007_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 158,
+      "prompt_id": 7,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_007_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 159,
+      "prompt_id": 7,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_007_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 160,
+      "prompt_id": 7,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_007_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 161,
+      "prompt_id": 7,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_007_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 162,
+      "prompt_id": 7,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_007_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 163,
+      "prompt_id": 7,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_007_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 164,
+      "prompt_id": 7,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_007_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 165,
+      "prompt_id": 7,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_007_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 166,
+      "prompt_id": 7,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_007_sharpen_weak.png",
+      "detection_rate": 0.5953,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 167,
+      "prompt_id": 7,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_007_sharpen_medium.png",
+      "detection_rate": 0.5907,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 168,
+      "prompt_id": 7,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_007_sharpen_strong.png",
+      "detection_rate": 0.6363,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 169,
+      "prompt_id": 8,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_008_blur_weak.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 170,
+      "prompt_id": 8,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_008_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 171,
+      "prompt_id": 8,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_008_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 172,
+      "prompt_id": 8,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_008_jpeg_80.png",
+      "detection_rate": 0.1804,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 173,
+      "prompt_id": 8,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_008_jpeg_50.png",
+      "detection_rate": 0.0993,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 174,
+      "prompt_id": 8,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_008_jpeg_20.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 175,
+      "prompt_id": 8,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_008_noise_weak.png",
+      "detection_rate": 0.1504,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 176,
+      "prompt_id": 8,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_008_noise_medium.png",
+      "detection_rate": 0.0799,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 177,
+      "prompt_id": 8,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_008_noise_strong.png",
+      "detection_rate": 0.0646,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 178,
+      "prompt_id": 8,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_008_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 179,
+      "prompt_id": 8,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_008_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 180,
+      "prompt_id": 8,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_008_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 181,
+      "prompt_id": 8,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_008_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 182,
+      "prompt_id": 8,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_008_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 183,
+      "prompt_id": 8,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_008_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 184,
+      "prompt_id": 8,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_008_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 185,
+      "prompt_id": 8,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_008_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 186,
+      "prompt_id": 8,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_008_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 187,
+      "prompt_id": 8,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_008_sharpen_weak.png",
+      "detection_rate": 0.2028,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 188,
+      "prompt_id": 8,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_008_sharpen_medium.png",
+      "detection_rate": 0.1841,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 189,
+      "prompt_id": 8,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_008_sharpen_strong.png",
+      "detection_rate": 0.2248,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 190,
+      "prompt_id": 9,
+      "attack_name": "blur_weak",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_009_blur_weak.png",
+      "detection_rate": 0.0889,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 191,
+      "prompt_id": 9,
+      "attack_name": "blur_medium",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_009_blur_medium.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 192,
+      "prompt_id": 9,
+      "attack_name": "blur_strong",
+      "attack_category": "blur",
+      "attacked_filename": "attacked_009_blur_strong.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 193,
+      "prompt_id": 9,
+      "attack_name": "jpeg_80",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_009_jpeg_80.png",
+      "detection_rate": 0.4612,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 194,
+      "prompt_id": 9,
+      "attack_name": "jpeg_50",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_009_jpeg_50.png",
+      "detection_rate": 0.207,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 195,
+      "prompt_id": 9,
+      "attack_name": "jpeg_20",
+      "attack_category": "jpeg",
+      "attacked_filename": "attacked_009_jpeg_20.png",
+      "detection_rate": 0.1072,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 196,
+      "prompt_id": 9,
+      "attack_name": "noise_weak",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_009_noise_weak.png",
+      "detection_rate": 0.2938,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 197,
+      "prompt_id": 9,
+      "attack_name": "noise_medium",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_009_noise_medium.png",
+      "detection_rate": 0.1743,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 198,
+      "prompt_id": 9,
+      "attack_name": "noise_strong",
+      "attack_category": "noise",
+      "attacked_filename": "attacked_009_noise_strong.png",
+      "detection_rate": 0.0974,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 199,
+      "prompt_id": 9,
+      "attack_name": "rotation_5",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_009_rotation_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 200,
+      "prompt_id": 9,
+      "attack_name": "rotation_15",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_009_rotation_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 201,
+      "prompt_id": 9,
+      "attack_name": "rotation_30",
+      "attack_category": "rotation",
+      "attacked_filename": "attacked_009_rotation_30.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 202,
+      "prompt_id": 9,
+      "attack_name": "scale_down_90",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_009_scale_down_90.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 203,
+      "prompt_id": 9,
+      "attack_name": "scale_down_75",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_009_scale_down_75.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 204,
+      "prompt_id": 9,
+      "attack_name": "scale_up_110",
+      "attack_category": "scaling",
+      "attacked_filename": "attacked_009_scale_up_110.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 205,
+      "prompt_id": 9,
+      "attack_name": "crop_5",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_009_crop_5.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 206,
+      "prompt_id": 9,
+      "attack_name": "crop_15",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_009_crop_15.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 207,
+      "prompt_id": 9,
+      "attack_name": "crop_25",
+      "attack_category": "cropping",
+      "attacked_filename": "attacked_009_crop_25.png",
+      "detection_rate": 0.05,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 208,
+      "prompt_id": 9,
+      "attack_name": "sharpen_weak",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_009_sharpen_weak.png",
+      "detection_rate": 0.4919,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 209,
+      "prompt_id": 9,
+      "attack_name": "sharpen_medium",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_009_sharpen_medium.png",
+      "detection_rate": 0.5205,
+      "attribution_correct": false
+    },
+    {
+      "test_id": 210,
+      "prompt_id": 9,
+      "attack_name": "sharpen_strong",
+      "attack_category": "sharpening",
+      "attacked_filename": "attacked_009_sharpen_strong.png",
+      "detection_rate": 0.5439,
+      "attribution_correct": false
+    }
+  ]
+}

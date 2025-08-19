@@ -1,0 +1,1649 @@
+[
+  {
+    "test_id": 1,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_blur_weak.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.012613399885594845,
+      "attribution_correct": false,
+      "detection_rate": 0.0252,
+      "precision": 0.0044,
+      "recall": 0.0073,
+      "f1_score": 0.0055,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0014,
+        "ROBIN_WM_001": 0.006,
+        "ROBIN_WM_002": 0.0093,
+        "ROBIN_WM_003": -0.0032,
+        "ROBIN_WM_004": 0.0126
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 2,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_blur_weak.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.012413767166435719,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2239,
+      "recall": 0.1859,
+      "f1_score": 0.2032,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0011,
+        "ROBIN_WM_001": 0.0059,
+        "ROBIN_WM_002": 0.0094,
+        "ROBIN_WM_003": -0.0037,
+        "ROBIN_WM_004": 0.0124
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 3,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_blur_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.011738518252968788,
+      "attribution_correct": false,
+      "detection_rate": 0.0235,
+      "precision": 0.0031,
+      "recall": 0.0031,
+      "f1_score": 0.0031,
+      "all_scores": {
+        "ROBIN_WM_000": -0.002,
+        "ROBIN_WM_001": 0.0044,
+        "ROBIN_WM_002": 0.0087,
+        "ROBIN_WM_003": -0.0018,
+        "ROBIN_WM_004": 0.0117
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 4,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_blur_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.011460975743830204,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1835,
+      "recall": 0.202,
+      "f1_score": 0.1923,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0016,
+        "ROBIN_WM_001": 0.0043,
+        "ROBIN_WM_002": 0.0089,
+        "ROBIN_WM_003": -0.002,
+        "ROBIN_WM_004": 0.0115
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 5,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_blur_strong.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.010101903850833574,
+      "attribution_correct": false,
+      "detection_rate": 0.0202,
+      "precision": 0.0044,
+      "recall": 0.0049,
+      "f1_score": 0.0047,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0021,
+        "ROBIN_WM_001": 0.0023,
+        "ROBIN_WM_002": 0.0054,
+        "ROBIN_WM_003": -0.0014,
+        "ROBIN_WM_004": 0.0101
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 6,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_blur_strong.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.010168856320281824,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1812,
+      "recall": 0.2082,
+      "f1_score": 0.1938,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0017,
+        "ROBIN_WM_001": 0.0024,
+        "ROBIN_WM_002": 0.0055,
+        "ROBIN_WM_003": -0.0015,
+        "ROBIN_WM_004": 0.0102
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 7,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "jpeg_high",
+    "attack_category": "jpeg",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_jpeg_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.012536246019105116,
+      "attribution_correct": false,
+      "detection_rate": 0.0251,
+      "precision": 0.0067,
+      "recall": 0.0036,
+      "f1_score": 0.0047,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0008,
+        "ROBIN_WM_001": 0.0072,
+        "ROBIN_WM_002": 0.0088,
+        "ROBIN_WM_003": -0.0044,
+        "ROBIN_WM_004": 0.0125
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 8,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_high",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_jpeg_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.01240711628148953,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1909,
+      "recall": 0.161,
+      "f1_score": 0.1747,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0006,
+        "ROBIN_WM_001": 0.0072,
+        "ROBIN_WM_002": 0.0088,
+        "ROBIN_WM_003": -0.0051,
+        "ROBIN_WM_004": 0.0124
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 9,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "jpeg_medium",
+    "attack_category": "jpeg",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_jpeg_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.010116545173029104,
+      "attribution_correct": false,
+      "detection_rate": 0.0202,
+      "precision": 0.0033,
+      "recall": 0.0041,
+      "f1_score": 0.0036,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0018,
+        "ROBIN_WM_001": 0.0069,
+        "ROBIN_WM_002": 0.0086,
+        "ROBIN_WM_003": -0.003,
+        "ROBIN_WM_004": 0.0101
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 10,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_medium",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_jpeg_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.00990784199287494,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2059,
+      "recall": 0.1675,
+      "f1_score": 0.1847,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0014,
+        "ROBIN_WM_001": 0.0074,
+        "ROBIN_WM_002": 0.0087,
+        "ROBIN_WM_003": -0.0038,
+        "ROBIN_WM_004": 0.0099
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 11,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "jpeg_low",
+    "attack_category": "jpeg",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_jpeg_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.010004288361718258,
+      "attribution_correct": false,
+      "detection_rate": 0.02,
+      "precision": 0.0044,
+      "recall": 0.0026,
+      "f1_score": 0.0032,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0013,
+        "ROBIN_WM_001": 0.0093,
+        "ROBIN_WM_002": 0.009,
+        "ROBIN_WM_003": -0.005,
+        "ROBIN_WM_004": 0.01
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 12,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_low",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_jpeg_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.010009835474193096,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1975,
+      "recall": 0.172,
+      "f1_score": 0.1839,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0008,
+        "ROBIN_WM_001": 0.0083,
+        "ROBIN_WM_002": 0.0084,
+        "ROBIN_WM_003": -0.0037,
+        "ROBIN_WM_004": 0.01
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 13,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "noise_low",
+    "attack_category": "noise",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_noise_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.0124771095191439,
+      "attribution_correct": false,
+      "detection_rate": 0.025,
+      "precision": 0.0069,
+      "recall": 0.0047,
+      "f1_score": 0.0056,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0016,
+        "ROBIN_WM_001": 0.0067,
+        "ROBIN_WM_002": 0.009,
+        "ROBIN_WM_003": -0.0044,
+        "ROBIN_WM_004": 0.0125
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 14,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "noise_low",
+    "attack_category": "noise",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_noise_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.012394508657356104,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.18,
+      "recall": 0.1603,
+      "f1_score": 0.1696,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0013,
+        "ROBIN_WM_001": 0.0062,
+        "ROBIN_WM_002": 0.0095,
+        "ROBIN_WM_003": -0.0051,
+        "ROBIN_WM_004": 0.0124
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 15,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_noise_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.011655315446356932,
+      "attribution_correct": false,
+      "detection_rate": 0.0233,
+      "precision": 0.0052,
+      "recall": 0.0065,
+      "f1_score": 0.0058,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0009,
+        "ROBIN_WM_001": 0.0065,
+        "ROBIN_WM_002": 0.0094,
+        "ROBIN_WM_003": -0.0041,
+        "ROBIN_WM_004": 0.0117
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 16,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_noise_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.01095240314801534,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1967,
+      "recall": 0.2097,
+      "f1_score": 0.203,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0022,
+        "ROBIN_WM_001": 0.0064,
+        "ROBIN_WM_002": 0.0093,
+        "ROBIN_WM_003": -0.0051,
+        "ROBIN_WM_004": 0.011
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 17,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "clean",
+    "attack_name": "noise_high",
+    "attack_category": "noise",
+    "original_filename": "clean_000_sd.png",
+    "attacked_filename": "clean_attacked_000_noise_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.01094413734972477,
+      "attribution_correct": false,
+      "detection_rate": 0.0219,
+      "precision": 0.0055,
+      "recall": 0.0048,
+      "f1_score": 0.0051,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0014,
+        "ROBIN_WM_001": 0.0059,
+        "ROBIN_WM_002": 0.0073,
+        "ROBIN_WM_003": -0.0036,
+        "ROBIN_WM_004": 0.0109
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 18,
+    "prompt_id": 0,
+    "prompt": "A serene mountain landscape at sunset",
+    "image_type": "watermarked",
+    "attack_name": "noise_high",
+    "attack_category": "noise",
+    "original_filename": "watermarked_000_robin.png",
+    "attacked_filename": "wm_attacked_000_noise_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.010781929983446995,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2033,
+      "recall": 0.1928,
+      "f1_score": 0.1979,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0008,
+        "ROBIN_WM_001": 0.007,
+        "ROBIN_WM_002": 0.01,
+        "ROBIN_WM_003": -0.0043,
+        "ROBIN_WM_004": 0.0108
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_000",
+      "pattern_idx": 0,
+      "embedding_steps": 4,
+      "strength": 0.1
+    }
+  },
+  {
+    "test_id": 19,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_blur_weak.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.003116500549367629,
+      "attribution_correct": false,
+      "detection_rate": 0.0062,
+      "precision": 0.0008,
+      "recall": 0.0014,
+      "f1_score": 0.001,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0002,
+        "ROBIN_WM_001": -0.0027,
+        "ROBIN_WM_002": -0.0033,
+        "ROBIN_WM_003": -0.0081,
+        "ROBIN_WM_004": 0.0031
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 20,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_blur_weak.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.00327930044538031,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.188,
+      "recall": 0.1644,
+      "f1_score": 0.1754,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0007,
+        "ROBIN_WM_001": -0.0014,
+        "ROBIN_WM_002": -0.0033,
+        "ROBIN_WM_003": -0.0078,
+        "ROBIN_WM_004": 0.0033
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 21,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_blur_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": -0.001507092034444213,
+      "attribution_correct": false,
+      "detection_rate": -0.003,
+      "precision": -0.0005,
+      "recall": -0.0008,
+      "f1_score": 0.0,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0015,
+        "ROBIN_WM_001": -0.0016,
+        "ROBIN_WM_002": -0.0021,
+        "ROBIN_WM_003": -0.0096,
+        "ROBIN_WM_004": -0.0029
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 22,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_blur_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": -0.00017798098269850016,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.22,
+      "recall": 0.1825,
+      "f1_score": 0.1995,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0011,
+        "ROBIN_WM_001": -0.0002,
+        "ROBIN_WM_002": -0.0022,
+        "ROBIN_WM_003": -0.0094,
+        "ROBIN_WM_004": -0.0026
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 23,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_blur_strong.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": -0.0011136688020390768,
+      "attribution_correct": false,
+      "detection_rate": -0.0022,
+      "precision": -0.0002,
+      "recall": -0.0005,
+      "f1_score": 0.0,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0026,
+        "ROBIN_WM_001": -0.0011,
+        "ROBIN_WM_002": -0.0011,
+        "ROBIN_WM_003": -0.0095,
+        "ROBIN_WM_004": -0.0074
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 24,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_blur_strong.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.0001319332125907143,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2037,
+      "recall": 0.1981,
+      "f1_score": 0.2009,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0023,
+        "ROBIN_WM_001": 0.0001,
+        "ROBIN_WM_002": -0.0011,
+        "ROBIN_WM_003": -0.0095,
+        "ROBIN_WM_004": -0.0073
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 25,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "jpeg_high",
+    "attack_category": "jpeg",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_jpeg_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.005886422314991553,
+      "attribution_correct": false,
+      "detection_rate": 0.0118,
+      "precision": 0.0018,
+      "recall": 0.0013,
+      "f1_score": 0.0015,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0016,
+        "ROBIN_WM_001": -0.0035,
+        "ROBIN_WM_002": -0.004,
+        "ROBIN_WM_003": -0.0065,
+        "ROBIN_WM_004": 0.0059
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 26,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_high",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_jpeg_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.0060314129999217885,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.232,
+      "recall": 0.1633,
+      "f1_score": 0.1917,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0013,
+        "ROBIN_WM_001": -0.0021,
+        "ROBIN_WM_002": -0.0032,
+        "ROBIN_WM_003": -0.0063,
+        "ROBIN_WM_004": 0.006
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 27,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "jpeg_medium",
+    "attack_category": "jpeg",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_jpeg_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.01141275989357382,
+      "attribution_correct": false,
+      "detection_rate": 0.0228,
+      "precision": 0.0041,
+      "recall": 0.0037,
+      "f1_score": 0.0039,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0007,
+        "ROBIN_WM_001": -0.0035,
+        "ROBIN_WM_002": -0.005,
+        "ROBIN_WM_003": -0.0042,
+        "ROBIN_WM_004": 0.0114
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 28,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_medium",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_jpeg_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.011697918797532717,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1846,
+      "recall": 0.2006,
+      "f1_score": 0.1923,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0011,
+        "ROBIN_WM_001": -0.004,
+        "ROBIN_WM_002": -0.0051,
+        "ROBIN_WM_003": -0.0037,
+        "ROBIN_WM_004": 0.0117
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 29,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "jpeg_low",
+    "attack_category": "jpeg",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_jpeg_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.008063348272116855,
+      "attribution_correct": false,
+      "detection_rate": 0.0161,
+      "precision": 0.0044,
+      "recall": 0.0047,
+      "f1_score": 0.0045,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0004,
+        "ROBIN_WM_001": -0.0021,
+        "ROBIN_WM_002": -0.0068,
+        "ROBIN_WM_003": -0.0079,
+        "ROBIN_WM_004": 0.0081
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 30,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_low",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_jpeg_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.0060800703552862006,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2031,
+      "recall": 0.2073,
+      "f1_score": 0.2052,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0001,
+        "ROBIN_WM_001": -0.0001,
+        "ROBIN_WM_002": -0.0074,
+        "ROBIN_WM_003": -0.0094,
+        "ROBIN_WM_004": 0.0061
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 31,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "noise_low",
+    "attack_category": "noise",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_noise_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.006023531934867303,
+      "attribution_correct": false,
+      "detection_rate": 0.012,
+      "precision": 0.0033,
+      "recall": 0.0014,
+      "f1_score": 0.002,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0012,
+        "ROBIN_WM_001": -0.0031,
+        "ROBIN_WM_002": -0.0038,
+        "ROBIN_WM_003": -0.0078,
+        "ROBIN_WM_004": 0.006
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 32,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "noise_low",
+    "attack_category": "noise",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_noise_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.007377074022466938,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1982,
+      "recall": 0.1879,
+      "f1_score": 0.1929,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0021,
+        "ROBIN_WM_001": -0.0018,
+        "ROBIN_WM_002": -0.0036,
+        "ROBIN_WM_003": -0.0071,
+        "ROBIN_WM_004": 0.0074
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 33,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_noise_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.006482145904252927,
+      "attribution_correct": false,
+      "detection_rate": 0.013,
+      "precision": 0.003,
+      "recall": 0.0028,
+      "f1_score": 0.0029,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0005,
+        "ROBIN_WM_001": -0.0045,
+        "ROBIN_WM_002": -0.005,
+        "ROBIN_WM_003": -0.0065,
+        "ROBIN_WM_004": 0.0065
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 34,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_noise_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.0063698135782033205,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1816,
+      "recall": 0.2084,
+      "f1_score": 0.1941,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0026,
+        "ROBIN_WM_001": -0.0024,
+        "ROBIN_WM_002": -0.0042,
+        "ROBIN_WM_003": -0.0081,
+        "ROBIN_WM_004": 0.0064
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 35,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "clean",
+    "attack_name": "noise_high",
+    "attack_category": "noise",
+    "original_filename": "clean_001_sd.png",
+    "attacked_filename": "clean_attacked_001_noise_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.004208909425263603,
+      "attribution_correct": false,
+      "detection_rate": 0.0084,
+      "precision": 0.0019,
+      "recall": 0.0012,
+      "f1_score": 0.0015,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0011,
+        "ROBIN_WM_001": -0.0024,
+        "ROBIN_WM_002": -0.0032,
+        "ROBIN_WM_003": -0.0075,
+        "ROBIN_WM_004": 0.0042
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 36,
+    "prompt_id": 1,
+    "prompt": "Autumn forest with golden leaves",
+    "image_type": "watermarked",
+    "attack_name": "noise_high",
+    "attack_category": "noise",
+    "original_filename": "watermarked_001_robin.png",
+    "attacked_filename": "wm_attacked_001_noise_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.002656188483039538,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1895,
+      "recall": 0.1623,
+      "f1_score": 0.1749,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0001,
+        "ROBIN_WM_001": -0.0012,
+        "ROBIN_WM_002": -0.0042,
+        "ROBIN_WM_003": -0.0095,
+        "ROBIN_WM_004": 0.0027
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_001",
+      "pattern_idx": 1,
+      "embedding_steps": 4,
+      "strength": 0.12000000000000001
+    }
+  },
+  {
+    "test_id": 37,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_blur_weak.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.021574412162105244,
+      "attribution_correct": false,
+      "detection_rate": 0.0431,
+      "precision": 0.0115,
+      "recall": 0.0052,
+      "f1_score": 0.0072,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0004,
+        "ROBIN_WM_001": 0.0109,
+        "ROBIN_WM_002": -0.0092,
+        "ROBIN_WM_003": -0.0004,
+        "ROBIN_WM_004": 0.0216
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 38,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "blur_weak",
+    "attack_category": "blur",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_blur_weak.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.021512885267535847,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2247,
+      "recall": 0.1716,
+      "f1_score": 0.1946,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0006,
+        "ROBIN_WM_001": 0.011,
+        "ROBIN_WM_002": -0.008,
+        "ROBIN_WM_003": -0.0003,
+        "ROBIN_WM_004": 0.0215
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  },
+  {
+    "test_id": 39,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_blur_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.018702455485860508,
+      "attribution_correct": false,
+      "detection_rate": 0.0374,
+      "precision": 0.0064,
+      "recall": 0.0083,
+      "f1_score": 0.0072,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0017,
+        "ROBIN_WM_001": 0.0097,
+        "ROBIN_WM_002": -0.0053,
+        "ROBIN_WM_003": -0.0003,
+        "ROBIN_WM_004": 0.0187
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 40,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "blur_medium",
+    "attack_category": "blur",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_blur_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.018502521018187206,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2036,
+      "recall": 0.1745,
+      "f1_score": 0.188,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0019,
+        "ROBIN_WM_001": 0.0097,
+        "ROBIN_WM_002": -0.0045,
+        "ROBIN_WM_003": -0.0004,
+        "ROBIN_WM_004": 0.0185
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  },
+  {
+    "test_id": 41,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_blur_strong.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.014335410359005133,
+      "attribution_correct": false,
+      "detection_rate": 0.0287,
+      "precision": 0.0058,
+      "recall": 0.0069,
+      "f1_score": 0.0063,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0022,
+        "ROBIN_WM_001": 0.0079,
+        "ROBIN_WM_002": -0.0015,
+        "ROBIN_WM_003": -0.0014,
+        "ROBIN_WM_004": 0.0143
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 42,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "blur_strong",
+    "attack_category": "blur",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_blur_strong.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.01447333830098311,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2376,
+      "recall": 0.1774,
+      "f1_score": 0.2031,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0022,
+        "ROBIN_WM_001": 0.0078,
+        "ROBIN_WM_002": -0.0008,
+        "ROBIN_WM_003": -0.0015,
+        "ROBIN_WM_004": 0.0145
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  },
+  {
+    "test_id": 43,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "jpeg_high",
+    "attack_category": "jpeg",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_jpeg_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.021045004948973656,
+      "attribution_correct": false,
+      "detection_rate": 0.0421,
+      "precision": 0.0078,
+      "recall": 0.0052,
+      "f1_score": 0.0062,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0006,
+        "ROBIN_WM_001": 0.0119,
+        "ROBIN_WM_002": -0.0106,
+        "ROBIN_WM_003": -0.0003,
+        "ROBIN_WM_004": 0.021
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 44,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_high",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_jpeg_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.021627554049094517,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1931,
+      "recall": 0.2074,
+      "f1_score": 0.2,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0005,
+        "ROBIN_WM_001": 0.012,
+        "ROBIN_WM_002": -0.0093,
+        "ROBIN_WM_003": -0.0002,
+        "ROBIN_WM_004": 0.0216
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  },
+  {
+    "test_id": 45,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "jpeg_medium",
+    "attack_category": "jpeg",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_jpeg_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.022704435512423515,
+      "attribution_correct": false,
+      "detection_rate": 0.0454,
+      "precision": 0.0131,
+      "recall": 0.0125,
+      "f1_score": 0.0128,
+      "all_scores": {
+        "ROBIN_WM_000": -0.001,
+        "ROBIN_WM_001": 0.0117,
+        "ROBIN_WM_002": -0.0095,
+        "ROBIN_WM_003": -0.0007,
+        "ROBIN_WM_004": 0.0227
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 46,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_medium",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_jpeg_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.022164012615879376,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2188,
+      "recall": 0.1628,
+      "f1_score": 0.1867,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0013,
+        "ROBIN_WM_001": 0.0115,
+        "ROBIN_WM_002": -0.0083,
+        "ROBIN_WM_003": -0.0002,
+        "ROBIN_WM_004": 0.0222
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  },
+  {
+    "test_id": 47,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "jpeg_low",
+    "attack_category": "jpeg",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_jpeg_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.022490274161100388,
+      "attribution_correct": false,
+      "detection_rate": 0.045,
+      "precision": 0.0102,
+      "recall": 0.0057,
+      "f1_score": 0.0074,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0014,
+        "ROBIN_WM_001": 0.0112,
+        "ROBIN_WM_002": -0.0101,
+        "ROBIN_WM_003": -0.0003,
+        "ROBIN_WM_004": 0.0225
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 48,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "jpeg_low",
+    "attack_category": "jpeg",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_jpeg_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.022816887746254604,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2075,
+      "recall": 0.2024,
+      "f1_score": 0.2049,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0013,
+        "ROBIN_WM_001": 0.0108,
+        "ROBIN_WM_002": -0.0091,
+        "ROBIN_WM_003": -0.0003,
+        "ROBIN_WM_004": 0.0228
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  },
+  {
+    "test_id": 49,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "noise_low",
+    "attack_category": "noise",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_noise_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.02371487890680631,
+      "attribution_correct": false,
+      "detection_rate": 0.0474,
+      "precision": 0.0102,
+      "recall": 0.0125,
+      "f1_score": 0.0112,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0002,
+        "ROBIN_WM_001": 0.0117,
+        "ROBIN_WM_002": -0.0112,
+        "ROBIN_WM_003": -0.0006,
+        "ROBIN_WM_004": 0.0237
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 50,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "noise_low",
+    "attack_category": "noise",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_noise_low.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.023061250646909077,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.1894,
+      "recall": 0.2068,
+      "f1_score": 0.1977,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0003,
+        "ROBIN_WM_001": 0.0114,
+        "ROBIN_WM_002": -0.0096,
+        "ROBIN_WM_003": -0.001,
+        "ROBIN_WM_004": 0.0231
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  },
+  {
+    "test_id": 51,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_noise_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.023648902773857117,
+      "attribution_correct": false,
+      "detection_rate": 0.0473,
+      "precision": 0.0131,
+      "recall": 0.0076,
+      "f1_score": 0.0096,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0013,
+        "ROBIN_WM_001": 0.0117,
+        "ROBIN_WM_002": -0.0108,
+        "ROBIN_WM_003": -0.0003,
+        "ROBIN_WM_004": 0.0236
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 52,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "noise_medium",
+    "attack_category": "noise",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_noise_medium.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.021062936012943585,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2114,
+      "recall": 0.1717,
+      "f1_score": 0.1895,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0005,
+        "ROBIN_WM_001": 0.0106,
+        "ROBIN_WM_002": -0.0086,
+        "ROBIN_WM_003": -0.0015,
+        "ROBIN_WM_004": 0.0211
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  },
+  {
+    "test_id": 53,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "clean",
+    "attack_name": "noise_high",
+    "attack_category": "noise",
+    "original_filename": "clean_002_sd.png",
+    "attacked_filename": "clean_attacked_002_noise_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.020967543746034305,
+      "attribution_correct": false,
+      "detection_rate": 0.0419,
+      "precision": 0.0058,
+      "recall": 0.01,
+      "f1_score": 0.0073,
+      "all_scores": {
+        "ROBIN_WM_000": -0.0,
+        "ROBIN_WM_001": 0.0105,
+        "ROBIN_WM_002": -0.0107,
+        "ROBIN_WM_003": 0.002,
+        "ROBIN_WM_004": 0.021
+      }
+    },
+    "watermark_info": null
+  },
+  {
+    "test_id": 54,
+    "prompt_id": 2,
+    "prompt": "Ocean waves on a sandy beach",
+    "image_type": "watermarked",
+    "attack_name": "noise_high",
+    "attack_category": "noise",
+    "original_filename": "watermarked_002_robin.png",
+    "attacked_filename": "wm_attacked_002_noise_high.png",
+    "detection_results": {
+      "watermark_detected": false,
+      "detected_pattern": null,
+      "confidence": 0.02372256355981032,
+      "attribution_correct": false,
+      "detection_rate": 0.3,
+      "precision": 0.2309,
+      "recall": 0.1821,
+      "f1_score": 0.2036,
+      "all_scores": {
+        "ROBIN_WM_000": 0.0012,
+        "ROBIN_WM_001": 0.0097,
+        "ROBIN_WM_002": -0.0076,
+        "ROBIN_WM_003": 0.0004,
+        "ROBIN_WM_004": 0.0237
+      }
+    },
+    "watermark_info": {
+      "pattern_id": "ROBIN_WM_002",
+      "pattern_idx": 2,
+      "embedding_steps": 4,
+      "strength": 0.14
+    }
+  }
+]

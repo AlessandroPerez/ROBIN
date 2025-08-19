@@ -1,0 +1,105 @@
+2025-08-19 10:58:26,769 - INFO - Initialized Enhanced ROBIN Tester with 5 images
+2025-08-19 10:58:26,769 - INFO - Output directory: enhanced_test_results
+2025-08-19 10:58:26,769 - INFO - Images will be saved to: enhanced_test_results/images
+2025-08-19 10:58:26,769 - INFO - Attacked images will be saved to: enhanced_test_results/attacked_images
+2025-08-19 10:58:26,769 - INFO - Starting enhanced ROBIN watermark testing with image generation
+2025-08-19 10:58:26,769 - INFO - Loaded 5 prompts for testing
+2025-08-19 10:58:26,769 - INFO - Running 105 tests (5 images × 21 attacks)
+2025-08-19 10:58:26,769 - INFO - Generating and saving 5 original images
+2025-08-19 10:58:26,769 - INFO - Generating and saving 105 attacked images
+2025-08-19 10:58:26,769 - INFO - Processing image 1/5: A serene mountain landscape at sunset...
+2025-08-19 10:58:28,038 - INFO - Progress: 10/105 (9.5%) - ETA: 12.1s
+2025-08-19 10:58:29,003 - INFO - Progress: 20/105 (19.0%) - ETA: 9.5s
+2025-08-19 10:58:29,090 - INFO - Processing image 2/5: Autumn forest with golden leaves...
+2025-08-19 10:58:30,108 - INFO - Progress: 30/105 (28.6%) - ETA: 8.3s
+2025-08-19 10:58:31,034 - INFO - Progress: 40/105 (38.1%) - ETA: 6.9s
+2025-08-19 10:58:31,201 - INFO - Processing image 3/5: Ocean waves on a sandy beach...
+2025-08-19 10:58:32,110 - INFO - Progress: 50/105 (47.6%) - ETA: 5.9s
+2025-08-19 10:58:33,064 - INFO - Progress: 60/105 (57.1%) - ETA: 4.7s
+2025-08-19 10:58:33,304 - INFO - Processing image 4/5: Field of sunflowers under blue sky...
+2025-08-19 10:58:34,126 - INFO - Progress: 70/105 (66.7%) - ETA: 3.7s
+2025-08-19 10:58:35,111 - INFO - Progress: 80/105 (76.2%) - ETA: 2.6s
+2025-08-19 10:58:35,437 - INFO - Processing image 5/5: Misty morning in a pine forest...
+2025-08-19 10:58:36,137 - INFO - Progress: 90/105 (85.7%) - ETA: 1.6s
+2025-08-19 10:58:37,185 - INFO - Progress: 100/105 (95.2%) - ETA: 0.5s
+2025-08-19 10:58:37,610 - INFO - Completed all 105 tests in 10.84 seconds
+2025-08-19 10:58:37,610 - INFO - Generated 5 original images
+2025-08-19 10:58:37,610 - INFO - Generated 105 attacked images
+2025-08-19 10:58:37,610 - INFO - Saving enhanced test results with image information
+2025-08-19 10:58:37,611 - ERROR - Error during enhanced testing: Object of type bool is not JSON serializable
+2025-08-19 10:59:03,898 - INFO - Initialized Enhanced ROBIN Tester with 5 images
+2025-08-19 10:59:03,899 - INFO - Output directory: enhanced_test_results
+2025-08-19 10:59:03,899 - INFO - Images will be saved to: enhanced_test_results/images
+2025-08-19 10:59:03,899 - INFO - Attacked images will be saved to: enhanced_test_results/attacked_images
+2025-08-19 10:59:03,899 - INFO - Starting enhanced ROBIN watermark testing with image generation
+2025-08-19 10:59:03,899 - INFO - Loaded 5 prompts for testing
+2025-08-19 10:59:03,899 - INFO - Running 105 tests (5 images × 21 attacks)
+2025-08-19 10:59:03,899 - INFO - Generating and saving 5 original images
+2025-08-19 10:59:03,899 - INFO - Generating and saving 105 attacked images
+2025-08-19 10:59:03,899 - INFO - Processing image 1/5: A serene mountain landscape at sunset...
+2025-08-19 10:59:05,145 - INFO - Progress: 10/105 (9.5%) - ETA: 11.8s
+2025-08-19 10:59:06,095 - INFO - Progress: 20/105 (19.0%) - ETA: 9.3s
+2025-08-19 10:59:06,183 - INFO - Processing image 2/5: Autumn forest with golden leaves...
+2025-08-19 10:59:07,206 - INFO - Progress: 30/105 (28.6%) - ETA: 8.3s
+2025-08-19 10:59:08,169 - INFO - Progress: 40/105 (38.1%) - ETA: 6.9s
+2025-08-19 10:59:08,337 - INFO - Processing image 3/5: Ocean waves on a sandy beach...
+2025-08-19 10:59:09,235 - INFO - Progress: 50/105 (47.6%) - ETA: 5.9s
+2025-08-19 10:59:10,181 - INFO - Progress: 60/105 (57.1%) - ETA: 4.7s
+2025-08-19 10:59:10,422 - INFO - Processing image 4/5: Field of sunflowers under blue sky...
+2025-08-19 10:59:11,215 - INFO - Progress: 70/105 (66.7%) - ETA: 3.7s
+2025-08-19 10:59:12,195 - INFO - Progress: 80/105 (76.2%) - ETA: 2.6s
+2025-08-19 10:59:12,517 - INFO - Processing image 5/5: Misty morning in a pine forest...
+2025-08-19 10:59:13,217 - INFO - Progress: 90/105 (85.7%) - ETA: 1.6s
+2025-08-19 10:59:14,246 - INFO - Progress: 100/105 (95.2%) - ETA: 0.5s
+2025-08-19 10:59:14,672 - INFO - Completed all 105 tests in 10.77 seconds
+2025-08-19 10:59:14,672 - INFO - Generated 5 original images
+2025-08-19 10:59:14,672 - INFO - Generated 105 attacked images
+2025-08-19 10:59:14,672 - INFO - Saving enhanced test results with image information
+2025-08-19 10:59:14,676 - INFO - Enhanced results saved to enhanced_test_results
+2025-08-19 10:59:14,676 - INFO - Image manifest saved to enhanced_test_results/image_manifest.json
+2025-08-19 11:00:03,019 - INFO - Initialized Enhanced ROBIN Tester with 10 images
+2025-08-19 11:00:03,019 - INFO - Output directory: enhanced_full_results
+2025-08-19 11:00:03,020 - INFO - Images will be saved to: enhanced_full_results/images
+2025-08-19 11:00:03,020 - INFO - Attacked images will be saved to: enhanced_full_results/attacked_images
+2025-08-19 11:00:03,020 - INFO - Starting enhanced ROBIN watermark testing with image generation
+2025-08-19 11:00:03,020 - INFO - Loaded 10 prompts for testing
+2025-08-19 11:00:03,020 - INFO - Running 210 tests (10 images × 21 attacks)
+2025-08-19 11:00:03,020 - INFO - Generating and saving 10 original images
+2025-08-19 11:00:03,020 - INFO - Generating and saving 210 attacked images
+2025-08-19 11:00:03,020 - INFO - Processing image 1/10: A serene mountain landscape at sunset...
+2025-08-19 11:00:04,271 - INFO - Progress: 10/210 (4.8%) - ETA: 25.0s
+2025-08-19 11:00:05,226 - INFO - Progress: 20/210 (9.5%) - ETA: 21.0s
+2025-08-19 11:00:05,312 - INFO - Processing image 2/10: Autumn forest with golden leaves...
+2025-08-19 11:00:06,329 - INFO - Progress: 30/210 (14.3%) - ETA: 19.9s
+2025-08-19 11:00:07,260 - INFO - Progress: 40/210 (19.0%) - ETA: 18.0s
+2025-08-19 11:00:07,427 - INFO - Processing image 3/10: Ocean waves on a sandy beach...
+2025-08-19 11:00:08,326 - INFO - Progress: 50/210 (23.8%) - ETA: 17.0s
+2025-08-19 11:00:09,276 - INFO - Progress: 60/210 (28.6%) - ETA: 15.6s
+2025-08-19 11:00:09,517 - INFO - Processing image 4/10: Field of sunflowers under blue sky...
+2025-08-19 11:00:10,311 - INFO - Progress: 70/210 (33.3%) - ETA: 14.6s
+2025-08-19 11:00:11,286 - INFO - Progress: 80/210 (38.1%) - ETA: 13.4s
+2025-08-19 11:00:11,610 - INFO - Processing image 5/10: Misty morning in a pine forest...
+2025-08-19 11:00:12,311 - INFO - Progress: 90/210 (42.9%) - ETA: 12.4s
+2025-08-19 11:00:13,333 - INFO - Progress: 100/210 (47.6%) - ETA: 11.3s
+2025-08-19 11:00:13,757 - INFO - Processing image 6/10: Desert dunes under starry night sky...
+2025-08-19 11:00:14,403 - INFO - Progress: 110/210 (52.4%) - ETA: 10.3s
+2025-08-19 11:00:15,350 - INFO - Progress: 120/210 (57.1%) - ETA: 9.2s
+2025-08-19 11:00:15,828 - INFO - Processing image 7/10: Tropical waterfall in jungle setting...
+2025-08-19 11:00:16,358 - INFO - Progress: 130/210 (61.9%) - ETA: 8.2s
+2025-08-19 11:00:17,342 - INFO - Progress: 140/210 (66.7%) - ETA: 7.2s
+2025-08-19 11:00:17,909 - INFO - Processing image 8/10: Snow-covered alpine peaks...
+2025-08-19 11:00:18,364 - INFO - Progress: 150/210 (71.4%) - ETA: 6.1s
+2025-08-19 11:00:19,370 - INFO - Progress: 160/210 (76.2%) - ETA: 5.1s
+2025-08-19 11:00:19,994 - INFO - Processing image 9/10: Cherry blossoms in spring garden...
+2025-08-19 11:00:20,344 - INFO - Progress: 170/210 (81.0%) - ETA: 4.1s
+2025-08-19 11:00:21,393 - INFO - Progress: 180/210 (85.7%) - ETA: 3.1s
+2025-08-19 11:00:22,102 - INFO - Processing image 10/10: Rocky coastline with lighthouse...
+2025-08-19 11:00:22,351 - INFO - Progress: 190/210 (90.5%) - ETA: 2.0s
+2025-08-19 11:00:23,328 - INFO - Progress: 200/210 (95.2%) - ETA: 1.0s
+2025-08-19 11:00:24,203 - INFO - Progress: 210/210 (100.0%) - ETA: 0.0s
+2025-08-19 11:00:24,203 - INFO - Completed all 210 tests in 21.18 seconds
+2025-08-19 11:00:24,203 - INFO - Generated 10 original images
+2025-08-19 11:00:24,203 - INFO - Generated 210 attacked images
+2025-08-19 11:00:24,203 - INFO - Saving enhanced test results with image information
+2025-08-19 11:00:24,211 - INFO - Enhanced results saved to enhanced_full_results
+2025-08-19 11:00:24,211 - INFO - Image manifest saved to enhanced_full_results/image_manifest.json
